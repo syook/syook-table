@@ -13,6 +13,9 @@ Or you can clone and build it.
 
 The files will be under `./lib` folder.
 
+## Testing
+
+`yarn test`
 
 ## Options
 
