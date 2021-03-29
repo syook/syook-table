@@ -134,6 +134,7 @@ export default class App extends React.Component {
           isShowSerialNumber
           isAllowDeepSearch
           emptyCellPlaceHolder="N/A"
+          accentColor="#26547c"
         />
       </div>
     );

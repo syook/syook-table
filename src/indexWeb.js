@@ -1,3 +1,3 @@
-import ReactTabulous from './containers/table';
+import ReactTabulous from './containers/table/indexFunctionalComponent';
 
 export default ReactTabulous;
