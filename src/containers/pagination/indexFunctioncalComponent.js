@@ -121,7 +121,7 @@ function PaginationProvider(props) {
     const numberOfPages = Math.ceil(rowCount / rowsPerPage.value);
     if (numberOfPages < currentPage) currentPage = numberOfPages;
 
-    props.resetBulkSelection();
+    // props.resetBulkSelection();
     dispatch({ type: 'numberOfPages', payload: numberOfPages });
     dispatch({ type: 'currentPage', payload: currentPage || 1 });
 
