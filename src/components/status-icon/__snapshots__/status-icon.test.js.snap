@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatusIcon Component matches snapshot 1`] = `
+<Popup
+  disabled={false}
+  keepInViewPort={true}
+  on="hover"
+  position="top left"
+  trigger={
+    <div
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Icon
+        as="i"
+        color="red"
+        name="home"
+      />
+       
+      <span
+        style={
+          Object {
+            "marginLeft": "2px",
+          }
+        }
+      >
+        icon
+      </span>
+    </div>
+  }
+/>
+`;

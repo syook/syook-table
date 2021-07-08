@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableCell should match snapshot 1`] = `
+<TableCell
+  data={
+    Object {
+      "data": Array [
+        Object {
+          "Description": "Dev",
+          "Name": "David",
+          "id": 1,
+          "objIndex": 0,
+        },
+        Object {
+          "Description": "QA",
+          "Name": "John",
+          "id": 2,
+          "objIndex": 1,
+        },
+      ],
+    }
+  }
+  row={
+    Object {
+      "objIndex": 0,
+    }
+  }
+/>
+`;
+
+exports[`TableCell should match snapshot if currentItem is found 1`] = `
+<TableCell
+  data={
+    Object {
+      "data": Array [
+        Object {
+          "Description": "Dev",
+          "Name": "David",
+          "id": 1,
+          "objIndex": 0,
+        },
+        Object {
+          "Description": "QA",
+          "Name": "John",
+          "id": 2,
+          "objIndex": 1,
+        },
+      ],
+    }
+  }
+  row={
+    Object {
+      "objIndex": 1,
+    }
+  }
+/>
+`;
+
+exports[`TableCell should match snapshot if currentItem is not found 1`] = `
+<TableCell
+  data={
+    Object {
+      "data": Array [
+        Object {
+          "Description": "Dev",
+          "Name": "David",
+          "id": 1,
+          "objIndex": 0,
+        },
+        Object {
+          "Description": "QA",
+          "Name": "John",
+          "id": 2,
+          "objIndex": 1,
+        },
+      ],
+    }
+  }
+  row={
+    Object {
+      "objIndex": 3,
+    }
+  }
+/>
+`;

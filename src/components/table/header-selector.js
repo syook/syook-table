@@ -2,7 +2,7 @@ import './header-selector.css';
 import React from 'react';
 import { Button, Popup, List, Icon, Checkbox } from 'semantic-ui-react';
 
-const ColumnList = ({ columns, toggleAllColumns, toggleColumns }) => {
+export const ColumnList = ({ columns, toggleAllColumns, toggleColumns }) => {
   return (
     <List key={`hide-selector-list`}>
       {(columns || []).map((column, index) => (

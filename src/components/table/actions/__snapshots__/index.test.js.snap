@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableActions Component should match snapshot 1`] = `
+<div
+  className="table-actions "
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "justifyContent": "center",
+      "whiteSpace": "nowrap",
+    }
+  }
+/>
+`;
+
+exports[`TableActions Component should match snapshot if actions is empty 1`] = `
+<div
+  className="table-actions "
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "justifyContent": "center",
+      "whiteSpace": "nowrap",
+    }
+  }
+/>
+`;
+
+exports[`TableActions Component should match snapshot if data is empty 1`] = `""`;

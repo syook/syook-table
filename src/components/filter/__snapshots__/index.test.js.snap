@@ -1,0 +1,2661 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableFilter matches snapshot 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "float": "left",
+    }
+  }
+>
+  <Popup
+    className="filter-popUp"
+    content={
+      <FilterDiv
+        addFilter={[Function]}
+        applyFilter={[MockFunction]}
+        filterableColumns={Array []}
+        filters={Array []}
+        filtersSelected={false}
+        removeFilter={[Function]}
+        selectedFilters={Array []}
+        updateSelectedFilters={[Function]}
+      />
+    }
+    disabled={false}
+    keepInViewPort={true}
+    on="click"
+    position="bottom left"
+    positionFixed={true}
+    trigger={
+      <Button
+        as="button"
+        style={
+          Object {
+            "backgroundColor": "rgba(241, 196, 15, 0.8)",
+            "color": "#fff",
+            "marginRight": "10px",
+          }
+        }
+      >
+        <Icon
+          as="i"
+          name="filter"
+        />
+         
+        Filter
+      </Button>
+    }
+  />
+</div>
+`;
+
+exports[`TableFilter matches snapshot if column type is Boolean 1`] = `
+<TableFilter
+  applyFilter={[MockFunction]}
+  column={
+    Object {
+      "type": "Boolean",
+    }
+  }
+  filterDisabled={false}
+  filters={
+    Array [
+      Object {
+        "attribute": "Name",
+        "label": "Name",
+        "predicate": "Where",
+        "query": "contains",
+        "type": "String",
+        "value": "Dav",
+      },
+    ]
+  }
+  selectedFilters={
+    Array [
+      Object {
+        "attribute": "Name",
+        "label": "Name",
+        "predicate": "Where",
+        "query": "contains",
+        "type": "String",
+        "value": "Dav",
+      },
+    ]
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "float": "left",
+      }
+    }
+  >
+    <Popup
+      className="filter-popUp"
+      content={
+        <FilterDiv
+          addFilter={[Function]}
+          applyFilter={[MockFunction]}
+          column={
+            Object {
+              "type": "Boolean",
+            }
+          }
+          filterDisabled={false}
+          filterableColumns={Array []}
+          filters={Array []}
+          filtersSelected={false}
+          removeFilter={[Function]}
+          selectedFilters={
+            Array [
+              Object {
+                "attribute": "Name",
+                "label": "Name",
+                "predicate": "Where",
+                "query": "contains",
+                "type": "String",
+                "value": "Dav",
+              },
+            ]
+          }
+          updateSelectedFilters={[Function]}
+        />
+      }
+      disabled={false}
+      keepInViewPort={true}
+      on="click"
+      position="bottom left"
+      positionFixed={true}
+      trigger={
+        <Button
+          as="button"
+          style={
+            Object {
+              "backgroundColor": "rgba(241, 196, 15, 0.8)",
+              "color": "#fff",
+              "marginRight": "10px",
+            }
+          }
+        >
+          <Icon
+            as="i"
+            name="filter"
+          />
+           
+          Filter
+        </Button>
+      }
+    >
+      <Portal
+        closeOnDocumentClick={true}
+        closeOnEscape={true}
+        closeOnTriggerClick={true}
+        eventPool="default"
+        onClose={[Function]}
+        onMount={[Function]}
+        onOpen={[Function]}
+        onUnmount={[Function]}
+        openOnTriggerClick={true}
+        trigger={
+          <Button
+            as="button"
+            style={
+              Object {
+                "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                "color": "#fff",
+                "marginRight": "10px",
+              }
+            }
+          >
+            <Icon
+              as="i"
+              name="filter"
+            />
+             
+            Filter
+          </Button>
+        }
+        triggerRef={[Function]}
+      >
+        <Ref
+          innerRef={[Function]}
+        >
+          <RefFindNode
+            innerRef={[Function]}
+          >
+            <Button
+              as="button"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                  "color": "#fff",
+                  "marginRight": "10px",
+                }
+              }
+            >
+              <Ref
+                innerRef={
+                  Object {
+                    "current": <button
+                      class="ui button"
+                      style="background-color: rgba(241, 196, 15, 0.8); color: rgb(255, 255, 255); margin-right: 10px;"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="filter icon"
+                      />
+                       
+                      Filter
+                    </button>,
+                  }
+                }
+              >
+                <RefFindNode
+                  innerRef={
+                    Object {
+                      "current": <button
+                        class="ui button"
+                        style="background-color: rgba(241, 196, 15, 0.8); color: rgb(255, 255, 255); margin-right: 10px;"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="filter icon"
+                        />
+                         
+                        Filter
+                      </button>,
+                    }
+                  }
+                >
+                  <button
+                    className="ui button"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                        "color": "#fff",
+                        "marginRight": "10px",
+                      }
+                    }
+                  >
+                    <Icon
+                      as="i"
+                      name="filter"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="filter icon"
+                        onClick={[Function]}
+                      />
+                    </Icon>
+                     
+                    Filter
+                  </button>
+                </RefFindNode>
+              </Ref>
+            </Button>
+          </RefFindNode>
+        </Ref>
+      </Portal>
+    </Popup>
+  </div>
+</TableFilter>
+`;
+
+exports[`TableFilter matches snapshot if column type is DateTime 1`] = `
+<TableFilter
+  applyFilter={[MockFunction]}
+  column={
+    Object {
+      "type": "DateTime",
+    }
+  }
+  filterDisabled={false}
+  filters={
+    Array [
+      Object {
+        "attribute": "Name",
+        "label": "Name",
+        "predicate": "Where",
+        "query": "contains",
+        "type": "String",
+        "value": "Dav",
+      },
+    ]
+  }
+  selectedFilters={
+    Array [
+      Object {
+        "attribute": "Name",
+        "label": "Name",
+        "predicate": "Where",
+        "query": "contains",
+        "type": "String",
+        "value": "Dav",
+      },
+    ]
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "float": "left",
+      }
+    }
+  >
+    <Popup
+      className="filter-popUp"
+      content={
+        <FilterDiv
+          addFilter={[Function]}
+          applyFilter={[MockFunction]}
+          column={
+            Object {
+              "type": "DateTime",
+            }
+          }
+          filterDisabled={false}
+          filterableColumns={Array []}
+          filters={Array []}
+          filtersSelected={false}
+          removeFilter={[Function]}
+          selectedFilters={
+            Array [
+              Object {
+                "attribute": "Name",
+                "label": "Name",
+                "predicate": "Where",
+                "query": "contains",
+                "type": "String",
+                "value": "Dav",
+              },
+            ]
+          }
+          updateSelectedFilters={[Function]}
+        />
+      }
+      disabled={false}
+      keepInViewPort={true}
+      on="click"
+      position="bottom left"
+      positionFixed={true}
+      trigger={
+        <Button
+          as="button"
+          style={
+            Object {
+              "backgroundColor": "rgba(241, 196, 15, 0.8)",
+              "color": "#fff",
+              "marginRight": "10px",
+            }
+          }
+        >
+          <Icon
+            as="i"
+            name="filter"
+          />
+           
+          Filter
+        </Button>
+      }
+    >
+      <Portal
+        closeOnDocumentClick={true}
+        closeOnEscape={true}
+        closeOnTriggerClick={true}
+        eventPool="default"
+        onClose={[Function]}
+        onMount={[Function]}
+        onOpen={[Function]}
+        onUnmount={[Function]}
+        openOnTriggerClick={true}
+        trigger={
+          <Button
+            as="button"
+            style={
+              Object {
+                "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                "color": "#fff",
+                "marginRight": "10px",
+              }
+            }
+          >
+            <Icon
+              as="i"
+              name="filter"
+            />
+             
+            Filter
+          </Button>
+        }
+        triggerRef={[Function]}
+      >
+        <Ref
+          innerRef={[Function]}
+        >
+          <RefFindNode
+            innerRef={[Function]}
+          >
+            <Button
+              as="button"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                  "color": "#fff",
+                  "marginRight": "10px",
+                }
+              }
+            >
+              <Ref
+                innerRef={
+                  Object {
+                    "current": <button
+                      class="ui button"
+                      style="background-color: rgba(241, 196, 15, 0.8); color: rgb(255, 255, 255); margin-right: 10px;"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="filter icon"
+                      />
+                       
+                      Filter
+                    </button>,
+                  }
+                }
+              >
+                <RefFindNode
+                  innerRef={
+                    Object {
+                      "current": <button
+                        class="ui button"
+                        style="background-color: rgba(241, 196, 15, 0.8); color: rgb(255, 255, 255); margin-right: 10px;"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="filter icon"
+                        />
+                         
+                        Filter
+                      </button>,
+                    }
+                  }
+                >
+                  <button
+                    className="ui button"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                        "color": "#fff",
+                        "marginRight": "10px",
+                      }
+                    }
+                  >
+                    <Icon
+                      as="i"
+                      name="filter"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="filter icon"
+                        onClick={[Function]}
+                      />
+                    </Icon>
+                     
+                    Filter
+                  </button>
+                </RefFindNode>
+              </Ref>
+            </Button>
+          </RefFindNode>
+        </Ref>
+      </Portal>
+    </Popup>
+  </div>
+</TableFilter>
+`;
+
+exports[`TableFilter matches snapshot if column type is MultiSelect 1`] = `
+<TableFilter
+  applyFilter={[MockFunction]}
+  column={
+    Object {
+      "type": "MultiSelect",
+    }
+  }
+  filterDisabled={false}
+  filters={
+    Array [
+      Object {
+        "attribute": "Name",
+        "label": "Name",
+        "predicate": "Where",
+        "query": "contains",
+        "type": "String",
+        "value": "Dav",
+      },
+    ]
+  }
+  selectedFilters={
+    Array [
+      Object {
+        "attribute": "Name",
+        "label": "Name",
+        "predicate": "Where",
+        "query": "contains",
+        "type": "String",
+        "value": "Dav",
+      },
+    ]
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "float": "left",
+      }
+    }
+  >
+    <Popup
+      className="filter-popUp"
+      content={
+        <FilterDiv
+          addFilter={[Function]}
+          applyFilter={[MockFunction]}
+          column={
+            Object {
+              "type": "MultiSelect",
+            }
+          }
+          filterDisabled={false}
+          filterableColumns={Array []}
+          filters={Array []}
+          filtersSelected={false}
+          removeFilter={[Function]}
+          selectedFilters={
+            Array [
+              Object {
+                "attribute": "Name",
+                "label": "Name",
+                "predicate": "Where",
+                "query": "contains",
+                "type": "String",
+                "value": "Dav",
+              },
+            ]
+          }
+          updateSelectedFilters={[Function]}
+        />
+      }
+      disabled={false}
+      keepInViewPort={true}
+      on="click"
+      position="bottom left"
+      positionFixed={true}
+      trigger={
+        <Button
+          as="button"
+          style={
+            Object {
+              "backgroundColor": "rgba(241, 196, 15, 0.8)",
+              "color": "#fff",
+              "marginRight": "10px",
+            }
+          }
+        >
+          <Icon
+            as="i"
+            name="filter"
+          />
+           
+          Filter
+        </Button>
+      }
+    >
+      <Portal
+        closeOnDocumentClick={true}
+        closeOnEscape={true}
+        closeOnTriggerClick={true}
+        eventPool="default"
+        onClose={[Function]}
+        onMount={[Function]}
+        onOpen={[Function]}
+        onUnmount={[Function]}
+        openOnTriggerClick={true}
+        trigger={
+          <Button
+            as="button"
+            style={
+              Object {
+                "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                "color": "#fff",
+                "marginRight": "10px",
+              }
+            }
+          >
+            <Icon
+              as="i"
+              name="filter"
+            />
+             
+            Filter
+          </Button>
+        }
+        triggerRef={[Function]}
+      >
+        <Ref
+          innerRef={[Function]}
+        >
+          <RefFindNode
+            innerRef={[Function]}
+          >
+            <Button
+              as="button"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                  "color": "#fff",
+                  "marginRight": "10px",
+                }
+              }
+            >
+              <Ref
+                innerRef={
+                  Object {
+                    "current": <button
+                      class="ui button"
+                      style="background-color: rgba(241, 196, 15, 0.8); color: rgb(255, 255, 255); margin-right: 10px;"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="filter icon"
+                      />
+                       
+                      Filter
+                    </button>,
+                  }
+                }
+              >
+                <RefFindNode
+                  innerRef={
+                    Object {
+                      "current": <button
+                        class="ui button"
+                        style="background-color: rgba(241, 196, 15, 0.8); color: rgb(255, 255, 255); margin-right: 10px;"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="filter icon"
+                        />
+                         
+                        Filter
+                      </button>,
+                    }
+                  }
+                >
+                  <button
+                    className="ui button"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                        "color": "#fff",
+                        "marginRight": "10px",
+                      }
+                    }
+                  >
+                    <Icon
+                      as="i"
+                      name="filter"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="filter icon"
+                        onClick={[Function]}
+                      />
+                    </Icon>
+                     
+                    Filter
+                  </button>
+                </RefFindNode>
+              </Ref>
+            </Button>
+          </RefFindNode>
+        </Ref>
+      </Portal>
+    </Popup>
+  </div>
+</TableFilter>
+`;
+
+exports[`TableFilter matches snapshot if column type is Number 1`] = `
+<TableFilter
+  applyFilter={[MockFunction]}
+  column={
+    Object {
+      "type": "Number",
+    }
+  }
+  filterDisabled={false}
+  filters={
+    Array [
+      Object {
+        "attribute": "Name",
+        "label": "Name",
+        "predicate": "Where",
+        "query": "contains",
+        "type": "String",
+        "value": "Dav",
+      },
+    ]
+  }
+  selectedFilters={
+    Array [
+      Object {
+        "attribute": "Name",
+        "label": "Name",
+        "predicate": "Where",
+        "query": "contains",
+        "type": "String",
+        "value": "Dav",
+      },
+    ]
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "float": "left",
+      }
+    }
+  >
+    <Popup
+      className="filter-popUp"
+      content={
+        <FilterDiv
+          addFilter={[Function]}
+          applyFilter={[MockFunction]}
+          column={
+            Object {
+              "type": "Number",
+            }
+          }
+          filterDisabled={false}
+          filterableColumns={Array []}
+          filters={Array []}
+          filtersSelected={false}
+          removeFilter={[Function]}
+          selectedFilters={
+            Array [
+              Object {
+                "attribute": "Name",
+                "label": "Name",
+                "predicate": "Where",
+                "query": "contains",
+                "type": "String",
+                "value": "Dav",
+              },
+            ]
+          }
+          updateSelectedFilters={[Function]}
+        />
+      }
+      disabled={false}
+      keepInViewPort={true}
+      on="click"
+      position="bottom left"
+      positionFixed={true}
+      trigger={
+        <Button
+          as="button"
+          style={
+            Object {
+              "backgroundColor": "rgba(241, 196, 15, 0.8)",
+              "color": "#fff",
+              "marginRight": "10px",
+            }
+          }
+        >
+          <Icon
+            as="i"
+            name="filter"
+          />
+           
+          Filter
+        </Button>
+      }
+    >
+      <Portal
+        closeOnDocumentClick={true}
+        closeOnEscape={true}
+        closeOnTriggerClick={true}
+        eventPool="default"
+        onClose={[Function]}
+        onMount={[Function]}
+        onOpen={[Function]}
+        onUnmount={[Function]}
+        openOnTriggerClick={true}
+        trigger={
+          <Button
+            as="button"
+            style={
+              Object {
+                "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                "color": "#fff",
+                "marginRight": "10px",
+              }
+            }
+          >
+            <Icon
+              as="i"
+              name="filter"
+            />
+             
+            Filter
+          </Button>
+        }
+        triggerRef={[Function]}
+      >
+        <Ref
+          innerRef={[Function]}
+        >
+          <RefFindNode
+            innerRef={[Function]}
+          >
+            <Button
+              as="button"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                  "color": "#fff",
+                  "marginRight": "10px",
+                }
+              }
+            >
+              <Ref
+                innerRef={
+                  Object {
+                    "current": <button
+                      class="ui button"
+                      style="background-color: rgba(241, 196, 15, 0.8); color: rgb(255, 255, 255); margin-right: 10px;"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="filter icon"
+                      />
+                       
+                      Filter
+                    </button>,
+                  }
+                }
+              >
+                <RefFindNode
+                  innerRef={
+                    Object {
+                      "current": <button
+                        class="ui button"
+                        style="background-color: rgba(241, 196, 15, 0.8); color: rgb(255, 255, 255); margin-right: 10px;"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="filter icon"
+                        />
+                         
+                        Filter
+                      </button>,
+                    }
+                  }
+                >
+                  <button
+                    className="ui button"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                        "color": "#fff",
+                        "marginRight": "10px",
+                      }
+                    }
+                  >
+                    <Icon
+                      as="i"
+                      name="filter"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="filter icon"
+                        onClick={[Function]}
+                      />
+                    </Icon>
+                     
+                    Filter
+                  </button>
+                </RefFindNode>
+              </Ref>
+            </Button>
+          </RefFindNode>
+        </Ref>
+      </Portal>
+    </Popup>
+  </div>
+</TableFilter>
+`;
+
+exports[`TableFilter matches snapshot if column type is SingleSelect 1`] = `
+<TableFilter
+  applyFilter={[MockFunction]}
+  column={
+    Object {
+      "type": "SingleSelect",
+    }
+  }
+  filterDisabled={false}
+  filters={
+    Array [
+      Object {
+        "attribute": "Name",
+        "label": "Name",
+        "predicate": "Where",
+        "query": "contains",
+        "type": "String",
+        "value": "Dav",
+      },
+    ]
+  }
+  selectedFilters={
+    Array [
+      Object {
+        "attribute": "Name",
+        "label": "Name",
+        "predicate": "Where",
+        "query": "contains",
+        "type": "String",
+        "value": "Dav",
+      },
+    ]
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "float": "left",
+      }
+    }
+  >
+    <Popup
+      className="filter-popUp"
+      content={
+        <FilterDiv
+          addFilter={[Function]}
+          applyFilter={[MockFunction]}
+          column={
+            Object {
+              "type": "SingleSelect",
+            }
+          }
+          filterDisabled={false}
+          filterableColumns={Array []}
+          filters={Array []}
+          filtersSelected={false}
+          removeFilter={[Function]}
+          selectedFilters={
+            Array [
+              Object {
+                "attribute": "Name",
+                "label": "Name",
+                "predicate": "Where",
+                "query": "contains",
+                "type": "String",
+                "value": "Dav",
+              },
+            ]
+          }
+          updateSelectedFilters={[Function]}
+        />
+      }
+      disabled={false}
+      keepInViewPort={true}
+      on="click"
+      position="bottom left"
+      positionFixed={true}
+      trigger={
+        <Button
+          as="button"
+          style={
+            Object {
+              "backgroundColor": "rgba(241, 196, 15, 0.8)",
+              "color": "#fff",
+              "marginRight": "10px",
+            }
+          }
+        >
+          <Icon
+            as="i"
+            name="filter"
+          />
+           
+          Filter
+        </Button>
+      }
+    >
+      <Portal
+        closeOnDocumentClick={true}
+        closeOnEscape={true}
+        closeOnTriggerClick={true}
+        eventPool="default"
+        onClose={[Function]}
+        onMount={[Function]}
+        onOpen={[Function]}
+        onUnmount={[Function]}
+        openOnTriggerClick={true}
+        trigger={
+          <Button
+            as="button"
+            style={
+              Object {
+                "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                "color": "#fff",
+                "marginRight": "10px",
+              }
+            }
+          >
+            <Icon
+              as="i"
+              name="filter"
+            />
+             
+            Filter
+          </Button>
+        }
+        triggerRef={[Function]}
+      >
+        <Ref
+          innerRef={[Function]}
+        >
+          <RefFindNode
+            innerRef={[Function]}
+          >
+            <Button
+              as="button"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                  "color": "#fff",
+                  "marginRight": "10px",
+                }
+              }
+            >
+              <Ref
+                innerRef={
+                  Object {
+                    "current": <button
+                      class="ui button"
+                      style="background-color: rgba(241, 196, 15, 0.8); color: rgb(255, 255, 255); margin-right: 10px;"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="filter icon"
+                      />
+                       
+                      Filter
+                    </button>,
+                  }
+                }
+              >
+                <RefFindNode
+                  innerRef={
+                    Object {
+                      "current": <button
+                        class="ui button"
+                        style="background-color: rgba(241, 196, 15, 0.8); color: rgb(255, 255, 255); margin-right: 10px;"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="filter icon"
+                        />
+                         
+                        Filter
+                      </button>,
+                    }
+                  }
+                >
+                  <button
+                    className="ui button"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                        "color": "#fff",
+                        "marginRight": "10px",
+                      }
+                    }
+                  >
+                    <Icon
+                      as="i"
+                      name="filter"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="filter icon"
+                        onClick={[Function]}
+                      />
+                    </Icon>
+                     
+                    Filter
+                  </button>
+                </RefFindNode>
+              </Ref>
+            </Button>
+          </RefFindNode>
+        </Ref>
+      </Portal>
+    </Popup>
+  </div>
+</TableFilter>
+`;
+
+exports[`TableFilter matches snapshot if column type is String 1`] = `
+<TableFilter
+  applyFilter={[MockFunction]}
+  column={
+    Object {
+      "type": "String",
+    }
+  }
+  filterDisabled={false}
+  filters={
+    Array [
+      Object {
+        "attribute": "Name",
+        "label": "Name",
+        "predicate": "Where",
+        "query": "contains",
+        "type": "String",
+        "value": "Dav",
+      },
+    ]
+  }
+  selectedFilters={
+    Array [
+      Object {
+        "attribute": "Name",
+        "label": "Name",
+        "predicate": "Where",
+        "query": "contains",
+        "type": "String",
+        "value": "Dav",
+      },
+    ]
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "float": "left",
+      }
+    }
+  >
+    <Popup
+      className="filter-popUp"
+      content={
+        <FilterDiv
+          addFilter={[Function]}
+          applyFilter={[MockFunction]}
+          column={
+            Object {
+              "type": "String",
+            }
+          }
+          filterDisabled={false}
+          filterableColumns={Array []}
+          filters={Array []}
+          filtersSelected={false}
+          removeFilter={[Function]}
+          selectedFilters={
+            Array [
+              Object {
+                "attribute": "Name",
+                "label": "Name",
+                "predicate": "Where",
+                "query": "contains",
+                "type": "String",
+                "value": "Dav",
+              },
+            ]
+          }
+          updateSelectedFilters={[Function]}
+        />
+      }
+      disabled={false}
+      keepInViewPort={true}
+      on="click"
+      position="bottom left"
+      positionFixed={true}
+      trigger={
+        <Button
+          as="button"
+          style={
+            Object {
+              "backgroundColor": "rgba(241, 196, 15, 0.8)",
+              "color": "#fff",
+              "marginRight": "10px",
+            }
+          }
+        >
+          <Icon
+            as="i"
+            name="filter"
+          />
+           
+          Filter
+        </Button>
+      }
+    >
+      <Portal
+        closeOnDocumentClick={true}
+        closeOnEscape={true}
+        closeOnTriggerClick={true}
+        eventPool="default"
+        onClose={[Function]}
+        onMount={[Function]}
+        onOpen={[Function]}
+        onUnmount={[Function]}
+        openOnTriggerClick={true}
+        trigger={
+          <Button
+            as="button"
+            style={
+              Object {
+                "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                "color": "#fff",
+                "marginRight": "10px",
+              }
+            }
+          >
+            <Icon
+              as="i"
+              name="filter"
+            />
+             
+            Filter
+          </Button>
+        }
+        triggerRef={[Function]}
+      >
+        <Ref
+          innerRef={[Function]}
+        >
+          <RefFindNode
+            innerRef={[Function]}
+          >
+            <Button
+              as="button"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                  "color": "#fff",
+                  "marginRight": "10px",
+                }
+              }
+            >
+              <Ref
+                innerRef={
+                  Object {
+                    "current": <button
+                      class="ui button"
+                      style="background-color: rgba(241, 196, 15, 0.8); color: rgb(255, 255, 255); margin-right: 10px;"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="filter icon"
+                      />
+                       
+                      Filter
+                    </button>,
+                  }
+                }
+              >
+                <RefFindNode
+                  innerRef={
+                    Object {
+                      "current": <button
+                        class="ui button"
+                        style="background-color: rgba(241, 196, 15, 0.8); color: rgb(255, 255, 255); margin-right: 10px;"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="filter icon"
+                        />
+                         
+                        Filter
+                      </button>,
+                    }
+                  }
+                >
+                  <button
+                    className="ui button"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                        "color": "#fff",
+                        "marginRight": "10px",
+                      }
+                    }
+                  >
+                    <Icon
+                      as="i"
+                      name="filter"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="filter icon"
+                        onClick={[Function]}
+                      />
+                    </Icon>
+                     
+                    Filter
+                  </button>
+                </RefFindNode>
+              </Ref>
+            </Button>
+          </RefFindNode>
+        </Ref>
+      </Portal>
+    </Popup>
+  </div>
+</TableFilter>
+`;
+
+exports[`TableFilter matches snapshot if column type is date 1`] = `
+<TableFilter
+  applyFilter={[MockFunction]}
+  column={
+    Object {
+      "type": "date",
+    }
+  }
+  filterDisabled={false}
+  filters={
+    Array [
+      Object {
+        "attribute": "Name",
+        "label": "Name",
+        "predicate": "Where",
+        "query": "contains",
+        "type": "String",
+        "value": "Dav",
+      },
+    ]
+  }
+  selectedFilters={
+    Array [
+      Object {
+        "attribute": "Name",
+        "label": "Name",
+        "predicate": "Where",
+        "query": "contains",
+        "type": "String",
+        "value": "Dav",
+      },
+    ]
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "float": "left",
+      }
+    }
+  >
+    <Popup
+      className="filter-popUp"
+      content={
+        <FilterDiv
+          addFilter={[Function]}
+          applyFilter={[MockFunction]}
+          column={
+            Object {
+              "type": "date",
+            }
+          }
+          filterDisabled={false}
+          filterableColumns={Array []}
+          filters={Array []}
+          filtersSelected={false}
+          removeFilter={[Function]}
+          selectedFilters={
+            Array [
+              Object {
+                "attribute": "Name",
+                "label": "Name",
+                "predicate": "Where",
+                "query": "contains",
+                "type": "String",
+                "value": "Dav",
+              },
+            ]
+          }
+          updateSelectedFilters={[Function]}
+        />
+      }
+      disabled={false}
+      keepInViewPort={true}
+      on="click"
+      position="bottom left"
+      positionFixed={true}
+      trigger={
+        <Button
+          as="button"
+          style={
+            Object {
+              "backgroundColor": "rgba(241, 196, 15, 0.8)",
+              "color": "#fff",
+              "marginRight": "10px",
+            }
+          }
+        >
+          <Icon
+            as="i"
+            name="filter"
+          />
+           
+          Filter
+        </Button>
+      }
+    >
+      <Portal
+        closeOnDocumentClick={true}
+        closeOnEscape={true}
+        closeOnTriggerClick={true}
+        eventPool="default"
+        onClose={[Function]}
+        onMount={[Function]}
+        onOpen={[Function]}
+        onUnmount={[Function]}
+        openOnTriggerClick={true}
+        trigger={
+          <Button
+            as="button"
+            style={
+              Object {
+                "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                "color": "#fff",
+                "marginRight": "10px",
+              }
+            }
+          >
+            <Icon
+              as="i"
+              name="filter"
+            />
+             
+            Filter
+          </Button>
+        }
+        triggerRef={[Function]}
+      >
+        <Ref
+          innerRef={[Function]}
+        >
+          <RefFindNode
+            innerRef={[Function]}
+          >
+            <Button
+              as="button"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                  "color": "#fff",
+                  "marginRight": "10px",
+                }
+              }
+            >
+              <Ref
+                innerRef={
+                  Object {
+                    "current": <button
+                      class="ui button"
+                      style="background-color: rgba(241, 196, 15, 0.8); color: rgb(255, 255, 255); margin-right: 10px;"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="filter icon"
+                      />
+                       
+                      Filter
+                    </button>,
+                  }
+                }
+              >
+                <RefFindNode
+                  innerRef={
+                    Object {
+                      "current": <button
+                        class="ui button"
+                        style="background-color: rgba(241, 196, 15, 0.8); color: rgb(255, 255, 255); margin-right: 10px;"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="filter icon"
+                        />
+                         
+                        Filter
+                      </button>,
+                    }
+                  }
+                >
+                  <button
+                    className="ui button"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                        "color": "#fff",
+                        "marginRight": "10px",
+                      }
+                    }
+                  >
+                    <Icon
+                      as="i"
+                      name="filter"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="filter icon"
+                        onClick={[Function]}
+                      />
+                    </Icon>
+                     
+                    Filter
+                  </button>
+                </RefFindNode>
+              </Ref>
+            </Button>
+          </RefFindNode>
+        </Ref>
+      </Portal>
+    </Popup>
+  </div>
+</TableFilter>
+`;
+
+exports[`TableFilter matches snapshot if filters are applied 1`] = `
+<TableFilter
+  applyFilter={[MockFunction]}
+  filters={
+    Array [
+      Object {
+        "attribute": "Name",
+        "label": "Name",
+        "predicate": "Where",
+        "query": "contains",
+        "type": "String",
+        "value": "Dav",
+      },
+    ]
+  }
+  selectedFilters={
+    Array [
+      Object {
+        "attribute": "Name",
+        "label": "Name",
+        "predicate": "Where",
+        "query": "contains",
+        "type": "String",
+        "value": "Dav",
+      },
+    ]
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "float": "left",
+      }
+    }
+  >
+    <Popup
+      className="filter-popUp"
+      content={
+        <FilterDiv
+          addFilter={[Function]}
+          applyFilter={[MockFunction]}
+          filterableColumns={Array []}
+          filters={Array []}
+          filtersSelected={false}
+          removeFilter={[Function]}
+          selectedFilters={
+            Array [
+              Object {
+                "attribute": "Name",
+                "label": "Name",
+                "predicate": "Where",
+                "query": "contains",
+                "type": "String",
+                "value": "Dav",
+              },
+            ]
+          }
+          updateSelectedFilters={[Function]}
+        />
+      }
+      disabled={false}
+      keepInViewPort={true}
+      on="click"
+      position="bottom left"
+      positionFixed={true}
+      trigger={
+        <Button
+          as="button"
+          style={
+            Object {
+              "backgroundColor": "rgba(241, 196, 15, 0.8)",
+              "color": "#fff",
+              "marginRight": "10px",
+            }
+          }
+        >
+          <Icon
+            as="i"
+            name="filter"
+          />
+           
+          Filter
+        </Button>
+      }
+    >
+      <Portal
+        closeOnDocumentClick={true}
+        closeOnEscape={true}
+        closeOnTriggerClick={true}
+        eventPool="default"
+        onClose={[Function]}
+        onMount={[Function]}
+        onOpen={[Function]}
+        onUnmount={[Function]}
+        openOnTriggerClick={true}
+        trigger={
+          <Button
+            as="button"
+            style={
+              Object {
+                "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                "color": "#fff",
+                "marginRight": "10px",
+              }
+            }
+          >
+            <Icon
+              as="i"
+              name="filter"
+            />
+             
+            Filter
+          </Button>
+        }
+        triggerRef={[Function]}
+      >
+        <Ref
+          innerRef={[Function]}
+        >
+          <RefFindNode
+            innerRef={[Function]}
+          >
+            <Button
+              as="button"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                  "color": "#fff",
+                  "marginRight": "10px",
+                }
+              }
+            >
+              <Ref
+                innerRef={
+                  Object {
+                    "current": <button
+                      class="ui button"
+                      style="background-color: rgba(241, 196, 15, 0.8); color: rgb(255, 255, 255); margin-right: 10px;"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="filter icon"
+                      />
+                       
+                      Filter
+                    </button>,
+                  }
+                }
+              >
+                <RefFindNode
+                  innerRef={
+                    Object {
+                      "current": <button
+                        class="ui button"
+                        style="background-color: rgba(241, 196, 15, 0.8); color: rgb(255, 255, 255); margin-right: 10px;"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="filter icon"
+                        />
+                         
+                        Filter
+                      </button>,
+                    }
+                  }
+                >
+                  <button
+                    className="ui button"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                        "color": "#fff",
+                        "marginRight": "10px",
+                      }
+                    }
+                  >
+                    <Icon
+                      as="i"
+                      name="filter"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="filter icon"
+                        onClick={[Function]}
+                      />
+                    </Icon>
+                     
+                    Filter
+                  </button>
+                </RefFindNode>
+              </Ref>
+            </Button>
+          </RefFindNode>
+        </Ref>
+      </Portal>
+    </Popup>
+  </div>
+</TableFilter>
+`;
+
+exports[`TableFilter matches snapshot if filters are disabled 1`] = `
+<TableFilter
+  applyFilter={[MockFunction]}
+  filterDisabled={false}
+  filters={
+    Array [
+      Object {
+        "attribute": "Name",
+        "label": "Name",
+        "predicate": "Where",
+        "query": "contains",
+        "type": "String",
+        "value": "Dav",
+      },
+    ]
+  }
+  selectedFilters={
+    Array [
+      Object {
+        "attribute": "Name",
+        "label": "Name",
+        "predicate": "Where",
+        "query": "contains",
+        "type": "String",
+        "value": "Dav",
+      },
+    ]
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "float": "left",
+      }
+    }
+  >
+    <Popup
+      className="filter-popUp"
+      content={
+        <FilterDiv
+          addFilter={[Function]}
+          applyFilter={[MockFunction]}
+          filterDisabled={false}
+          filterableColumns={Array []}
+          filters={Array []}
+          filtersSelected={false}
+          removeFilter={[Function]}
+          selectedFilters={
+            Array [
+              Object {
+                "attribute": "Name",
+                "label": "Name",
+                "predicate": "Where",
+                "query": "contains",
+                "type": "String",
+                "value": "Dav",
+              },
+            ]
+          }
+          updateSelectedFilters={[Function]}
+        />
+      }
+      disabled={false}
+      keepInViewPort={true}
+      on="click"
+      position="bottom left"
+      positionFixed={true}
+      trigger={
+        <Button
+          as="button"
+          style={
+            Object {
+              "backgroundColor": "rgba(241, 196, 15, 0.8)",
+              "color": "#fff",
+              "marginRight": "10px",
+            }
+          }
+        >
+          <Icon
+            as="i"
+            name="filter"
+          />
+           
+          Filter
+        </Button>
+      }
+    >
+      <Portal
+        closeOnDocumentClick={true}
+        closeOnEscape={true}
+        closeOnTriggerClick={true}
+        eventPool="default"
+        onClose={[Function]}
+        onMount={[Function]}
+        onOpen={[Function]}
+        onUnmount={[Function]}
+        openOnTriggerClick={true}
+        trigger={
+          <Button
+            as="button"
+            style={
+              Object {
+                "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                "color": "#fff",
+                "marginRight": "10px",
+              }
+            }
+          >
+            <Icon
+              as="i"
+              name="filter"
+            />
+             
+            Filter
+          </Button>
+        }
+        triggerRef={[Function]}
+      >
+        <Ref
+          innerRef={[Function]}
+        >
+          <RefFindNode
+            innerRef={[Function]}
+          >
+            <Button
+              as="button"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                  "color": "#fff",
+                  "marginRight": "10px",
+                }
+              }
+            >
+              <Ref
+                innerRef={
+                  Object {
+                    "current": <button
+                      class="ui button"
+                      style="background-color: rgba(241, 196, 15, 0.8); color: rgb(255, 255, 255); margin-right: 10px;"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="filter icon"
+                      />
+                       
+                      Filter
+                    </button>,
+                  }
+                }
+              >
+                <RefFindNode
+                  innerRef={
+                    Object {
+                      "current": <button
+                        class="ui button"
+                        style="background-color: rgba(241, 196, 15, 0.8); color: rgb(255, 255, 255); margin-right: 10px;"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="filter icon"
+                        />
+                         
+                        Filter
+                      </button>,
+                    }
+                  }
+                >
+                  <button
+                    className="ui button"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                        "color": "#fff",
+                        "marginRight": "10px",
+                      }
+                    }
+                  >
+                    <Icon
+                      as="i"
+                      name="filter"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="filter icon"
+                        onClick={[Function]}
+                      />
+                    </Icon>
+                     
+                    Filter
+                  </button>
+                </RefFindNode>
+              </Ref>
+            </Button>
+          </RefFindNode>
+        </Ref>
+      </Portal>
+    </Popup>
+  </div>
+</TableFilter>
+`;
+
+exports[`TableFilter matches snapshot if filters are not applied 1`] = `
+<TableFilter
+  applyFilter={[MockFunction]}
+  filters={Array []}
+  selectedFilters={Array []}
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "float": "left",
+      }
+    }
+  >
+    <Popup
+      className="filter-popUp"
+      content={
+        <FilterDiv
+          addFilter={[Function]}
+          applyFilter={[MockFunction]}
+          filterableColumns={Array []}
+          filters={Array []}
+          filtersSelected={false}
+          removeFilter={[Function]}
+          selectedFilters={Array []}
+          updateSelectedFilters={[Function]}
+        />
+      }
+      disabled={false}
+      keepInViewPort={true}
+      on="click"
+      position="bottom left"
+      positionFixed={true}
+      trigger={
+        <Button
+          as="button"
+          style={
+            Object {
+              "backgroundColor": "rgba(241, 196, 15, 0.8)",
+              "color": "#fff",
+              "marginRight": "10px",
+            }
+          }
+        >
+          <Icon
+            as="i"
+            name="filter"
+          />
+           
+          Filter
+        </Button>
+      }
+    >
+      <Portal
+        closeOnDocumentClick={true}
+        closeOnEscape={true}
+        closeOnTriggerClick={true}
+        eventPool="default"
+        onClose={[Function]}
+        onMount={[Function]}
+        onOpen={[Function]}
+        onUnmount={[Function]}
+        openOnTriggerClick={true}
+        trigger={
+          <Button
+            as="button"
+            style={
+              Object {
+                "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                "color": "#fff",
+                "marginRight": "10px",
+              }
+            }
+          >
+            <Icon
+              as="i"
+              name="filter"
+            />
+             
+            Filter
+          </Button>
+        }
+        triggerRef={[Function]}
+      >
+        <Ref
+          innerRef={[Function]}
+        >
+          <RefFindNode
+            innerRef={[Function]}
+          >
+            <Button
+              as="button"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                  "color": "#fff",
+                  "marginRight": "10px",
+                }
+              }
+            >
+              <Ref
+                innerRef={
+                  Object {
+                    "current": <button
+                      class="ui button"
+                      style="background-color: rgba(241, 196, 15, 0.8); color: rgb(255, 255, 255); margin-right: 10px;"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="filter icon"
+                      />
+                       
+                      Filter
+                    </button>,
+                  }
+                }
+              >
+                <RefFindNode
+                  innerRef={
+                    Object {
+                      "current": <button
+                        class="ui button"
+                        style="background-color: rgba(241, 196, 15, 0.8); color: rgb(255, 255, 255); margin-right: 10px;"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="filter icon"
+                        />
+                         
+                        Filter
+                      </button>,
+                    }
+                  }
+                >
+                  <button
+                    className="ui button"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                        "color": "#fff",
+                        "marginRight": "10px",
+                      }
+                    }
+                  >
+                    <Icon
+                      as="i"
+                      name="filter"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="filter icon"
+                        onClick={[Function]}
+                      />
+                    </Icon>
+                     
+                    Filter
+                  </button>
+                </RefFindNode>
+              </Ref>
+            </Button>
+          </RefFindNode>
+        </Ref>
+      </Portal>
+    </Popup>
+  </div>
+</TableFilter>
+`;
+
+exports[`TableFilter matches snapshot if query is "is empty" or "is not empty" 1`] = `
+<TableFilter
+  applyFilter={[MockFunction]}
+  column={
+    Object {
+      "query": "is empty",
+    }
+  }
+  filterDisabled={false}
+  filters={
+    Array [
+      Object {
+        "attribute": "Name",
+        "label": "Name",
+        "predicate": "Where",
+        "query": "contains",
+        "type": "String",
+        "value": "Dav",
+      },
+    ]
+  }
+  selectedFilters={
+    Array [
+      Object {
+        "attribute": "Name",
+        "label": "Name",
+        "predicate": "Where",
+        "query": "contains",
+        "type": "String",
+        "value": "Dav",
+      },
+    ]
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "float": "left",
+      }
+    }
+  >
+    <Popup
+      className="filter-popUp"
+      content={
+        <FilterDiv
+          addFilter={[Function]}
+          applyFilter={[MockFunction]}
+          column={
+            Object {
+              "query": "is empty",
+            }
+          }
+          filterDisabled={false}
+          filterableColumns={Array []}
+          filters={Array []}
+          filtersSelected={false}
+          removeFilter={[Function]}
+          selectedFilters={
+            Array [
+              Object {
+                "attribute": "Name",
+                "label": "Name",
+                "predicate": "Where",
+                "query": "contains",
+                "type": "String",
+                "value": "Dav",
+              },
+            ]
+          }
+          updateSelectedFilters={[Function]}
+        />
+      }
+      disabled={false}
+      keepInViewPort={true}
+      on="click"
+      position="bottom left"
+      positionFixed={true}
+      trigger={
+        <Button
+          as="button"
+          style={
+            Object {
+              "backgroundColor": "rgba(241, 196, 15, 0.8)",
+              "color": "#fff",
+              "marginRight": "10px",
+            }
+          }
+        >
+          <Icon
+            as="i"
+            name="filter"
+          />
+           
+          Filter
+        </Button>
+      }
+    >
+      <Portal
+        closeOnDocumentClick={true}
+        closeOnEscape={true}
+        closeOnTriggerClick={true}
+        eventPool="default"
+        onClose={[Function]}
+        onMount={[Function]}
+        onOpen={[Function]}
+        onUnmount={[Function]}
+        openOnTriggerClick={true}
+        trigger={
+          <Button
+            as="button"
+            style={
+              Object {
+                "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                "color": "#fff",
+                "marginRight": "10px",
+              }
+            }
+          >
+            <Icon
+              as="i"
+              name="filter"
+            />
+             
+            Filter
+          </Button>
+        }
+        triggerRef={[Function]}
+      >
+        <Ref
+          innerRef={[Function]}
+        >
+          <RefFindNode
+            innerRef={[Function]}
+          >
+            <Button
+              as="button"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                  "color": "#fff",
+                  "marginRight": "10px",
+                }
+              }
+            >
+              <Ref
+                innerRef={
+                  Object {
+                    "current": <button
+                      class="ui button"
+                      style="background-color: rgba(241, 196, 15, 0.8); color: rgb(255, 255, 255); margin-right: 10px;"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="filter icon"
+                      />
+                       
+                      Filter
+                    </button>,
+                  }
+                }
+              >
+                <RefFindNode
+                  innerRef={
+                    Object {
+                      "current": <button
+                        class="ui button"
+                        style="background-color: rgba(241, 196, 15, 0.8); color: rgb(255, 255, 255); margin-right: 10px;"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="filter icon"
+                        />
+                         
+                        Filter
+                      </button>,
+                    }
+                  }
+                >
+                  <button
+                    className="ui button"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                        "color": "#fff",
+                        "marginRight": "10px",
+                      }
+                    }
+                  >
+                    <Icon
+                      as="i"
+                      name="filter"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="filter icon"
+                        onClick={[Function]}
+                      />
+                    </Icon>
+                     
+                    Filter
+                  </button>
+                </RefFindNode>
+              </Ref>
+            </Button>
+          </RefFindNode>
+        </Ref>
+      </Portal>
+    </Popup>
+  </div>
+</TableFilter>
+`;
+
+exports[`TableFilter matches snapshot if query is not "is empty" or "is not empty" 1`] = `
+<TableFilter
+  applyFilter={[MockFunction]}
+  column={
+    Object {
+      "query": "contains",
+    }
+  }
+  filterDisabled={false}
+  filters={
+    Array [
+      Object {
+        "attribute": "Name",
+        "label": "Name",
+        "predicate": "Where",
+        "query": "contains",
+        "type": "String",
+        "value": "Dav",
+      },
+    ]
+  }
+  selectedFilters={
+    Array [
+      Object {
+        "attribute": "Name",
+        "label": "Name",
+        "predicate": "Where",
+        "query": "contains",
+        "type": "String",
+        "value": "Dav",
+      },
+    ]
+  }
+>
+  <div
+    style={
+      Object {
+        "display": "flex",
+        "float": "left",
+      }
+    }
+  >
+    <Popup
+      className="filter-popUp"
+      content={
+        <FilterDiv
+          addFilter={[Function]}
+          applyFilter={[MockFunction]}
+          column={
+            Object {
+              "query": "contains",
+            }
+          }
+          filterDisabled={false}
+          filterableColumns={Array []}
+          filters={Array []}
+          filtersSelected={false}
+          removeFilter={[Function]}
+          selectedFilters={
+            Array [
+              Object {
+                "attribute": "Name",
+                "label": "Name",
+                "predicate": "Where",
+                "query": "contains",
+                "type": "String",
+                "value": "Dav",
+              },
+            ]
+          }
+          updateSelectedFilters={[Function]}
+        />
+      }
+      disabled={false}
+      keepInViewPort={true}
+      on="click"
+      position="bottom left"
+      positionFixed={true}
+      trigger={
+        <Button
+          as="button"
+          style={
+            Object {
+              "backgroundColor": "rgba(241, 196, 15, 0.8)",
+              "color": "#fff",
+              "marginRight": "10px",
+            }
+          }
+        >
+          <Icon
+            as="i"
+            name="filter"
+          />
+           
+          Filter
+        </Button>
+      }
+    >
+      <Portal
+        closeOnDocumentClick={true}
+        closeOnEscape={true}
+        closeOnTriggerClick={true}
+        eventPool="default"
+        onClose={[Function]}
+        onMount={[Function]}
+        onOpen={[Function]}
+        onUnmount={[Function]}
+        openOnTriggerClick={true}
+        trigger={
+          <Button
+            as="button"
+            style={
+              Object {
+                "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                "color": "#fff",
+                "marginRight": "10px",
+              }
+            }
+          >
+            <Icon
+              as="i"
+              name="filter"
+            />
+             
+            Filter
+          </Button>
+        }
+        triggerRef={[Function]}
+      >
+        <Ref
+          innerRef={[Function]}
+        >
+          <RefFindNode
+            innerRef={[Function]}
+          >
+            <Button
+              as="button"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              style={
+                Object {
+                  "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                  "color": "#fff",
+                  "marginRight": "10px",
+                }
+              }
+            >
+              <Ref
+                innerRef={
+                  Object {
+                    "current": <button
+                      class="ui button"
+                      style="background-color: rgba(241, 196, 15, 0.8); color: rgb(255, 255, 255); margin-right: 10px;"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="filter icon"
+                      />
+                       
+                      Filter
+                    </button>,
+                  }
+                }
+              >
+                <RefFindNode
+                  innerRef={
+                    Object {
+                      "current": <button
+                        class="ui button"
+                        style="background-color: rgba(241, 196, 15, 0.8); color: rgb(255, 255, 255); margin-right: 10px;"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="filter icon"
+                        />
+                         
+                        Filter
+                      </button>,
+                    }
+                  }
+                >
+                  <button
+                    className="ui button"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "rgba(241, 196, 15, 0.8)",
+                        "color": "#fff",
+                        "marginRight": "10px",
+                      }
+                    }
+                  >
+                    <Icon
+                      as="i"
+                      name="filter"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="filter icon"
+                        onClick={[Function]}
+                      />
+                    </Icon>
+                     
+                    Filter
+                  </button>
+                </RefFindNode>
+              </Ref>
+            </Button>
+          </RefFindNode>
+        </Ref>
+      </Portal>
+    </Popup>
+  </div>
+</TableFilter>
+`;

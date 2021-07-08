@@ -23,6 +23,7 @@ const TableActions = ({ actions, row, actionOnHover, data }) => {
         ) : (
           <Button
             icon
+            id="button"
             className={action.className || ''}
             size={action.size || 'small'}
             inverted={typeof action.inverted === 'function' && action.inverted(currentItem)}

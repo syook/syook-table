@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableHeader should match snapshop 1`] = `
+<TableHeaderCell
+  as="th"
+  className="sort-table  resizable"
+  key="table-header-cell-0"
+  sorted="ascending"
+  style={
+    Object {
+      "minWidth": 200,
+      "whiteSpace": "normal",
+    }
+  }
+>
+  Name
+   
+  <p
+    style={
+      Object {
+        "color": "blueviolet",
+        "display": "inline-block",
+      }
+    }
+  >
+     
+     
+  </p>
+</TableHeaderCell>
+`;
+
+exports[`TableHeader should match snapshot if Icon component is present 1`] = `
+<TableHeader
+  column={
+    Object {
+      "cell": [Function],
+      "field": "description",
+      "headerName": "Description",
+      "isFilterable": true,
+      "isResizable": false,
+      "isSearchable": true,
+      "isSortable": true,
+      "isVisible": true,
+      "type": "String",
+    }
+  }
+  defaultSort="Address"
+  disabled={false}
+  index={0}
+  sortProps={
+    Object {
+      "columnName": "Name",
+      "columnType": "String",
+      "direction": "ascending",
+      "handleSort": [Function],
+    }
+  }
+>
+  <TableHeaderCell
+    as="th"
+    className="sort-table "
+    key="table-header-cell-0"
+    sorted={null}
+    style={
+      Object {
+        "minWidth": 200,
+        "whiteSpace": "normal",
+      }
+    }
+  >
+    <TableCell
+      as="th"
+      className="sort-table "
+      style={
+        Object {
+          "minWidth": 200,
+          "whiteSpace": "normal",
+        }
+      }
+    >
+      <th
+        className="sort-table "
+        style={
+          Object {
+            "minWidth": 200,
+            "whiteSpace": "normal",
+          }
+        }
+      >
+        Description
+        <Icon
+          as="i"
+          name="sort"
+        >
+          <i
+            aria-hidden="true"
+            className="sort icon"
+            onClick={[Function]}
+          />
+        </Icon>
+         
+        <p
+          style={
+            Object {
+              "color": "blueviolet",
+              "display": "inline-block",
+            }
+          }
+        >
+           
+           
+        </p>
+      </th>
+    </TableCell>
+  </TableHeaderCell>
+</TableHeader>
+`;

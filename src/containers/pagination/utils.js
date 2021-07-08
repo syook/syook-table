@@ -1,4 +1,4 @@
-const findStartPage = (numberOfPages, currentPage) => {
+export const findStartPage = (numberOfPages, currentPage) => {
   let startPage;
   if (numberOfPages <= 3 || currentPage === 1) {
     startPage = 1;

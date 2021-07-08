@@ -1,0 +1,492 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableFilter matches snapshot if bulkActionDefs are present and showBulkActions is true 1`] = `
+<div
+  className="table-wrapper"
+>
+  <SearchProvider
+    bulkActionDefs={
+      Array [
+        Object {
+          "function": [Function],
+          "name": "Delete",
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "Description": "Dev",
+          "Name": "David",
+          "id": 1,
+          "objIndex": 0,
+        },
+        Object {
+          "Description": "QA",
+          "Name": "John",
+          "id": 2,
+          "objIndex": 1,
+        },
+      ]
+    }
+    mandatoryFields={
+      Array [
+        "Name",
+      ]
+    }
+    rawData={
+      Array [
+        Object {
+          "Description": "Dev",
+          "Name": "David",
+          "id": 1,
+          "objIndex": 0,
+        },
+        Object {
+          "Description": "QA",
+          "Name": "John",
+          "id": 2,
+          "objIndex": 1,
+        },
+      ]
+    }
+    searchKeys={Object {}}
+    showBulkActions={true}
+    tableData={
+      Array [
+        Object {
+          "id": 1,
+        },
+        Object {
+          "id": 2,
+        },
+      ]
+    }
+  >
+    <ContextConsumer>
+      <Component />
+    </ContextConsumer>
+  </SearchProvider>
+</div>
+`;
+
+exports[`TableFilter matches snapshot if data is empty 1`] = `
+<div
+  className="table-wrapper"
+>
+  <SearchProvider
+    data={Array []}
+    rawData={Array []}
+    searchKeys={Object {}}
+    tableData={Array []}
+  >
+    <ContextConsumer>
+      <Component />
+    </ContextConsumer>
+  </SearchProvider>
+</div>
+`;
+
+exports[`TableFilter matches snapshot if data is not empty 1`] = `
+<div
+  className="table-wrapper"
+>
+  <SearchProvider
+    data={
+      Array [
+        Object {
+          "Description": "Dev",
+          "Name": "David",
+          "id": 1,
+          "objIndex": 0,
+        },
+        Object {
+          "Description": "QA",
+          "Name": "John",
+          "id": 2,
+          "objIndex": 1,
+        },
+      ]
+    }
+    rawData={
+      Array [
+        Object {
+          "Description": "Dev",
+          "Name": "David",
+          "id": 1,
+          "objIndex": 0,
+        },
+        Object {
+          "Description": "QA",
+          "Name": "John",
+          "id": 2,
+          "objIndex": 1,
+        },
+      ]
+    }
+    searchKeys={Object {}}
+    tableData={
+      Array [
+        Object {
+          "id": 1,
+        },
+        Object {
+          "id": 2,
+        },
+      ]
+    }
+  >
+    <ContextConsumer>
+      <Component />
+    </ContextConsumer>
+  </SearchProvider>
+</div>
+`;
+
+exports[`TableFilter matches snapshot if includeAction is true 1`] = `
+<div
+  className="table-wrapper"
+>
+  <SearchProvider
+    bulkActionDefs={
+      Array [
+        Object {
+          "function": [Function],
+          "name": "Delete",
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "Description": "Dev",
+          "Name": "David",
+          "id": 1,
+          "objIndex": 0,
+        },
+        Object {
+          "Description": "QA",
+          "Name": "John",
+          "id": 2,
+          "objIndex": 1,
+        },
+      ]
+    }
+    includeAction={true}
+    isShowSerialNumber={false}
+    mandatoryFields={
+      Array [
+        "Name",
+      ]
+    }
+    rawData={
+      Array [
+        Object {
+          "Description": "Dev",
+          "Name": "David",
+          "id": 1,
+          "objIndex": 0,
+        },
+        Object {
+          "Description": "QA",
+          "Name": "John",
+          "id": 2,
+          "objIndex": 1,
+        },
+      ]
+    }
+    searchKeys={Object {}}
+    showBulkActions={true}
+    tableData={
+      Array [
+        Object {
+          "id": 1,
+        },
+        Object {
+          "id": 2,
+        },
+      ]
+    }
+  >
+    <ContextConsumer>
+      <Component />
+    </ContextConsumer>
+  </SearchProvider>
+</div>
+`;
+
+exports[`TableFilter matches snapshot if isShowSerialNumber is false 1`] = `
+<div
+  className="table-wrapper"
+>
+  <SearchProvider
+    bulkActionDefs={
+      Array [
+        Object {
+          "function": [Function],
+          "name": "Delete",
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "Description": "Dev",
+          "Name": "David",
+          "id": 1,
+          "objIndex": 0,
+        },
+        Object {
+          "Description": "QA",
+          "Name": "John",
+          "id": 2,
+          "objIndex": 1,
+        },
+      ]
+    }
+    isShowSerialNumber={false}
+    mandatoryFields={
+      Array [
+        "Name",
+      ]
+    }
+    rawData={
+      Array [
+        Object {
+          "Description": "Dev",
+          "Name": "David",
+          "id": 1,
+          "objIndex": 0,
+        },
+        Object {
+          "Description": "QA",
+          "Name": "John",
+          "id": 2,
+          "objIndex": 1,
+        },
+      ]
+    }
+    searchKeys={Object {}}
+    showBulkActions={true}
+    tableData={
+      Array [
+        Object {
+          "id": 1,
+        },
+        Object {
+          "id": 2,
+        },
+      ]
+    }
+  >
+    <ContextConsumer>
+      <Component />
+    </ContextConsumer>
+  </SearchProvider>
+</div>
+`;
+
+exports[`TableFilter matches snapshot if isShowSerialNumber is true 1`] = `
+<div
+  className="table-wrapper"
+>
+  <SearchProvider
+    bulkActionDefs={
+      Array [
+        Object {
+          "function": [Function],
+          "name": "Delete",
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "Description": "Dev",
+          "Name": "David",
+          "id": 1,
+          "objIndex": 0,
+        },
+        Object {
+          "Description": "QA",
+          "Name": "John",
+          "id": 2,
+          "objIndex": 1,
+        },
+      ]
+    }
+    isShowSerialNumber={true}
+    mandatoryFields={
+      Array [
+        "Name",
+      ]
+    }
+    rawData={
+      Array [
+        Object {
+          "Description": "Dev",
+          "Name": "David",
+          "id": 1,
+          "objIndex": 0,
+        },
+        Object {
+          "Description": "QA",
+          "Name": "John",
+          "id": 2,
+          "objIndex": 1,
+        },
+      ]
+    }
+    searchKeys={Object {}}
+    showBulkActions={true}
+    tableData={
+      Array [
+        Object {
+          "id": 1,
+        },
+        Object {
+          "id": 2,
+        },
+      ]
+    }
+  >
+    <ContextConsumer>
+      <Component />
+    </ContextConsumer>
+  </SearchProvider>
+</div>
+`;
+
+exports[`TableFilter matches snapshot if mandatoryFields are not empty 1`] = `
+<div
+  className="table-wrapper"
+>
+  <SearchProvider
+    data={
+      Array [
+        Object {
+          "Description": "Dev",
+          "Name": "David",
+          "id": 1,
+          "objIndex": 0,
+        },
+        Object {
+          "Description": "QA",
+          "Name": "John",
+          "id": 2,
+          "objIndex": 1,
+        },
+      ]
+    }
+    mandatoryFields={
+      Array [
+        "Name",
+      ]
+    }
+    rawData={
+      Array [
+        Object {
+          "Description": "Dev",
+          "Name": "David",
+          "id": 1,
+          "objIndex": 0,
+        },
+        Object {
+          "Description": "QA",
+          "Name": "John",
+          "id": 2,
+          "objIndex": 1,
+        },
+      ]
+    }
+    searchKeys={Object {}}
+    tableData={
+      Array [
+        Object {
+          "id": 1,
+        },
+        Object {
+          "id": 2,
+        },
+      ]
+    }
+  >
+    <ContextConsumer>
+      <Component />
+    </ContextConsumer>
+  </SearchProvider>
+</div>
+`;
+
+exports[`TableFilter matches snapshot if showStatusIcon is true 1`] = `
+<div
+  className="table-wrapper"
+>
+  <SearchProvider
+    bulkActionDefs={
+      Array [
+        Object {
+          "function": [Function],
+          "name": "Delete",
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "Description": "Dev",
+          "Name": "David",
+          "id": 1,
+          "objIndex": 0,
+        },
+        Object {
+          "Description": "QA",
+          "Name": "John",
+          "id": 2,
+          "objIndex": 1,
+        },
+      ]
+    }
+    includeAction={true}
+    isShowSerialNumber={false}
+    mandatoryFields={
+      Array [
+        "Name",
+      ]
+    }
+    rawData={
+      Array [
+        Object {
+          "Description": "Dev",
+          "Name": "David",
+          "id": 1,
+          "objIndex": 0,
+        },
+        Object {
+          "Description": "QA",
+          "Name": "John",
+          "id": 2,
+          "objIndex": 1,
+        },
+      ]
+    }
+    searchKeys={Object {}}
+    showBulkActions={true}
+    showStatusIcon={true}
+    tableData={
+      Array [
+        Object {
+          "id": 1,
+        },
+        Object {
+          "id": 2,
+        },
+      ]
+    }
+  >
+    <ContextConsumer>
+      <Component />
+    </ContextConsumer>
+  </SearchProvider>
+</div>
+`;

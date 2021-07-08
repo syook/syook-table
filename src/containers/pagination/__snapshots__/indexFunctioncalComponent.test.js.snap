@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SortProvider should match snapshot if data is empty 1`] = `
+<Fragment>
+  <div
+    className="scrollable-table tableFixHead null"
+    style={
+      Object {
+        "marginTop": "10px",
+        "maxWidth": "100%",
+      }
+    }
+  >
+    <Table
+      as="table"
+      celled={true}
+      className="tableStyle left aligned table-fixed"
+      padded={true}
+      sortable={true}
+    >
+      <ContextProvider
+        value={
+          Object {
+            "currentPage": 1,
+            "data": Array [],
+            "numberOfColumns": 30,
+            "numberOfPages": 0,
+            "rawData": undefined,
+            "resetToFirstPage": [Function],
+            "rowCount": 0,
+            "rowsPerPage": Object {
+              "label": "10 Items",
+              "value": 10,
+            },
+            "startIndex": 0,
+          }
+        }
+      />
+    </Table>
+  </div>
+  <Pagination
+    currentPage={1}
+    data={Array []}
+    handleDirectionClick={[Function]}
+    handlePageClick={[Function]}
+    numberOfColumns={30}
+    numberOfPages={0}
+    onSelectRowsPerPage={[Function]}
+    pageRange={Array []}
+    rowCount={0}
+    rowsPerPage={
+      Object {
+        "label": "10 Items",
+        "value": 10,
+      }
+    }
+    setCurrentPage={[Function]}
+  />
+</Fragment>
+`;
+
+exports[`SortProvider should match snapshot if data is not empty 1`] = `
+<Fragment>
+  <div
+    className="scrollable-table tableFixHead null"
+    style={
+      Object {
+        "marginTop": "10px",
+        "maxWidth": "100%",
+      }
+    }
+  >
+    <Table
+      as="table"
+      celled={true}
+      className="tableStyle left aligned table-fixed"
+      padded={true}
+      sortable={true}
+    >
+      <ContextProvider
+        value={
+          Object {
+            "currentPage": 1,
+            "data": Array [
+              Object {
+                "Description": "Dev",
+                "Name": "David",
+                "id": 1,
+                "objIndex": 0,
+              },
+              Object {
+                "Description": "QA",
+                "Name": "John",
+                "id": 2,
+                "objIndex": 1,
+              },
+            ],
+            "numberOfColumns": 30,
+            "numberOfPages": 1,
+            "rawData": undefined,
+            "resetToFirstPage": [Function],
+            "rowCount": 2,
+            "rowsPerPage": Object {
+              "label": "10 Items",
+              "value": 10,
+            },
+            "startIndex": 0,
+          }
+        }
+      />
+    </Table>
+  </div>
+  <Pagination
+    currentPage={1}
+    data={
+      Array [
+        Object {
+          "Description": "Dev",
+          "Name": "David",
+          "id": 1,
+          "objIndex": 0,
+        },
+        Object {
+          "Description": "QA",
+          "Name": "John",
+          "id": 2,
+          "objIndex": 1,
+        },
+      ]
+    }
+    handleDirectionClick={[Function]}
+    handlePageClick={[Function]}
+    numberOfColumns={30}
+    numberOfPages={1}
+    onSelectRowsPerPage={[Function]}
+    pageRange={
+      Array [
+        1,
+      ]
+    }
+    rowCount={2}
+    rowsPerPage={
+      Object {
+        "label": "10 Items",
+        "value": 10,
+      }
+    }
+    setCurrentPage={[Function]}
+  />
+</Fragment>
+`;

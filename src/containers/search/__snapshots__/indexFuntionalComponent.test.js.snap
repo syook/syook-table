@@ -1,0 +1,376 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchProvider matches snapshot 1`] = `
+<div>
+  <ContextProvider
+    value={
+      Object {
+        "columnName": null,
+        "columnType": null,
+        "count": undefined,
+        "data": Array [],
+        "direction": null,
+        "rawData": undefined,
+        "rowsPerPage": 10,
+        "rowsPerPageFromSearch": 10,
+        "searchText": "",
+        "updateRowsPerPage": [Function],
+        "updateRowsSortParams": [Function],
+      }
+    }
+  >
+    <SearchComponent
+      disabled={true}
+      onChangeSearchText={[Function]}
+    />
+    <div
+      style={
+        Object {
+          "padding": "0 15px",
+        }
+      }
+    >
+      <div
+        className="noRecordsDiv"
+      >
+        No data to Display
+      </div>
+    </div>
+  </ContextProvider>
+</div>
+`;
+
+exports[`SearchProvider should match snapshop if tableData is empty 1`] = `
+<SearchProvider
+  tableData={Array []}
+>
+  <div>
+    <SearchComponent
+      disabled={true}
+      onChangeSearchText={[Function]}
+    >
+      <div>
+        <div
+          style={
+            Object {
+              "position": "relative",
+              "right": "0px",
+              "top": "-30px",
+            }
+          }
+        >
+          <Input
+            disabled={true}
+            iconPosition="left"
+            onChange={[Function]}
+            placeholder="Search..."
+            style={
+              Object {
+                "borderRadius": "3px",
+                "color": "#667797",
+                "marginLeft": "10px",
+                "maxWidth": "300px",
+                "position": "absolute",
+                "right": "15px",
+                "top": "35px",
+                "zIndex": 9,
+              }
+            }
+            type="text"
+          >
+            <div
+              className="ui disabled left icon input"
+              style={
+                Object {
+                  "borderRadius": "3px",
+                  "color": "#667797",
+                  "marginLeft": "10px",
+                  "maxWidth": "300px",
+                  "position": "absolute",
+                  "right": "15px",
+                  "top": "35px",
+                  "zIndex": 9,
+                }
+              }
+            >
+              <Icon
+                as="i"
+                key=".0"
+                name="search"
+              >
+                <i
+                  aria-hidden="true"
+                  className="search icon"
+                  onClick={[Function]}
+                />
+              </Icon>
+              <input
+                className="tabulous-searchInput"
+                disabled={true}
+                key=".1"
+                onChange={[Function]}
+                placeholder="Search..."
+                tabIndex={-1}
+                type="text"
+                value=""
+              />
+              <Icon
+                as="i"
+                disabled={true}
+                key=".2"
+                name="close"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "cursor": "pointer",
+                    "left": "unset",
+                    "pointerEvents": "auto",
+                    "position": "absolute",
+                    "right": "0px",
+                  }
+                }
+              >
+                <i
+                  aria-hidden="true"
+                  className="close disabled icon"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "cursor": "pointer",
+                      "left": "unset",
+                      "pointerEvents": "auto",
+                      "position": "absolute",
+                      "right": "0px",
+                    }
+                  }
+                />
+              </Icon>
+            </div>
+          </Input>
+        </div>
+      </div>
+    </SearchComponent>
+    <div
+      style={
+        Object {
+          "padding": "0 15px",
+        }
+      }
+    >
+      <div
+        className="noRecordsDiv"
+      >
+        No data to Display
+      </div>
+    </div>
+  </div>
+</SearchProvider>
+`;
+
+exports[`SearchProvider should match snapshop if tableData is not empty 1`] = `
+<SearchProvider
+  tableData={
+    Array [
+      Object {
+        "description": "Dev",
+        "id": 1,
+        "name": "Harsh Singh",
+        "objIndex": 0,
+      },
+      Object {
+        "description": "QA",
+        "id": 2,
+        "name": "Prakash",
+        "objIndex": 1,
+      },
+    ]
+  }
+>
+  <div>
+    <SearchComponent
+      disabled={false}
+      onChangeSearchText={[Function]}
+    >
+      <div>
+        <div
+          style={
+            Object {
+              "position": "relative",
+              "right": "0px",
+              "top": "-30px",
+            }
+          }
+        >
+          <Input
+            disabled={false}
+            iconPosition="left"
+            onChange={[Function]}
+            placeholder="Search..."
+            style={
+              Object {
+                "borderRadius": "3px",
+                "color": "#667797",
+                "marginLeft": "10px",
+                "maxWidth": "300px",
+                "position": "absolute",
+                "right": "15px",
+                "top": "35px",
+                "zIndex": 9,
+              }
+            }
+            type="text"
+          >
+            <div
+              className="ui left icon input"
+              style={
+                Object {
+                  "borderRadius": "3px",
+                  "color": "#667797",
+                  "marginLeft": "10px",
+                  "maxWidth": "300px",
+                  "position": "absolute",
+                  "right": "15px",
+                  "top": "35px",
+                  "zIndex": 9,
+                }
+              }
+            >
+              <Icon
+                as="i"
+                key=".0"
+                name="search"
+              >
+                <i
+                  aria-hidden="true"
+                  className="search icon"
+                  onClick={[Function]}
+                />
+              </Icon>
+              <input
+                className="tabulous-searchInput"
+                disabled={false}
+                key=".1"
+                onChange={[Function]}
+                placeholder="Search..."
+                type="text"
+                value=""
+              />
+              <Icon
+                as="i"
+                disabled={false}
+                key=".2"
+                name="close"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "cursor": "pointer",
+                    "left": "unset",
+                    "pointerEvents": "auto",
+                    "position": "absolute",
+                    "right": "0px",
+                  }
+                }
+              >
+                <i
+                  aria-hidden="true"
+                  className="close icon"
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "cursor": "pointer",
+                      "left": "unset",
+                      "pointerEvents": "auto",
+                      "position": "absolute",
+                      "right": "0px",
+                    }
+                  }
+                />
+              </Icon>
+            </div>
+          </Input>
+        </div>
+      </div>
+    </SearchComponent>
+  </div>
+</SearchProvider>
+`;
+
+exports[`SearchProvider should match snapshot if tableData is present 1`] = `
+<div>
+  <ContextProvider
+    value={
+      Object {
+        "columnName": null,
+        "columnType": null,
+        "count": undefined,
+        "data": Array [],
+        "direction": null,
+        "rawData": undefined,
+        "rowsPerPage": 10,
+        "rowsPerPageFromSearch": 10,
+        "searchText": "",
+        "updateRowsPerPage": [Function],
+        "updateRowsSortParams": [Function],
+      }
+    }
+  >
+    <SearchComponent
+      disabled={false}
+      onChangeSearchText={[Function]}
+    />
+    <div
+      style={
+        Object {
+          "padding": "0 15px",
+        }
+      }
+    >
+      <div
+        className="noRecordsDiv"
+      >
+        No Results Found
+      </div>
+    </div>
+  </ContextProvider>
+</div>
+`;
+
+exports[`SearchProvider should matches snapshot if data is not empty 1`] = `
+<div>
+  <ContextProvider
+    value={
+      Object {
+        "columnName": null,
+        "columnType": null,
+        "count": undefined,
+        "data": Array [],
+        "direction": null,
+        "rawData": undefined,
+        "rowsPerPage": 10,
+        "rowsPerPageFromSearch": 10,
+        "searchText": "",
+        "updateRowsPerPage": [Function],
+        "updateRowsSortParams": [Function],
+      }
+    }
+  >
+    <SearchComponent
+      disabled={false}
+      onChangeSearchText={[Function]}
+    />
+    <div
+      style={
+        Object {
+          "padding": "0 15px",
+        }
+      }
+    >
+      <div
+        className="noRecordsDiv"
+      >
+        No Results Found
+      </div>
+    </div>
+  </ContextProvider>
+</div>
+`;

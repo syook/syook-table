@@ -1,7 +1,8 @@
+import './pagination.css';
+
 import React from 'react';
 import { Label, Menu, MenuItem } from 'semantic-ui-react';
 import Select from 'react-select';
-import './pagination.css';
 
 const rowsPerPageOptions = [5, 10, 20, 50].map(num => ({
   value: num,
@@ -42,7 +43,7 @@ const Pagination = props => {
             className="pagination_select"
             value={props.rowsPerPage}
             options={pageOptions}
-            onChange={props.onSelectRowsPerPage}
+            onChange={() => console.log('onchsnge wsjbdefej') || props.onSelectRowsPerPage()}
             isClearable={false}
             isSearchable={false}
             menuPortalTarget={document.querySelector('#root')}

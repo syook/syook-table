@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SortProvider should match snapshot 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "columnName": null,
+      "columnType": null,
+      "count": undefined,
+      "data": Array [],
+      "direction": null,
+      "handleSort": [Function],
+      "rawData": undefined,
+      "resetPagination": false,
+    }
+  }
+/>
+`;

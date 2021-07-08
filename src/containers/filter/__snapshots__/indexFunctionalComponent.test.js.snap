@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterProvider should match snapshot if data is empty 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "count": undefined,
+      "data": Array [],
+      "filterDisabled": false,
+      "rawData": undefined,
+      "selectedFilters": Array [],
+      "shouldFilterReset": false,
+    }
+  }
+>
+  <TableFilter
+    applyFilter={[Function]}
+    disabled={true}
+    filterDisabled={false}
+    selectedFilters={Array []}
+    setSelectedFilters={[Function]}
+    shouldFilterReset={false}
+  />
+</ContextProvider>
+`;
+
+exports[`FilterProvider should match snapshot if data is not empty 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "count": undefined,
+      "data": Array [
+        Object {
+          "Description": "Dev",
+          "Name": "David",
+          "id": 1,
+          "objIndex": 0,
+        },
+      ],
+      "filterDisabled": false,
+      "rawData": undefined,
+      "selectedFilters": Array [],
+      "shouldFilterReset": false,
+    }
+  }
+>
+  <TableFilter
+    applyFilter={[Function]}
+    disabled={true}
+    filterDisabled={false}
+    filterableColumns={Array []}
+    selectedFilters={Array []}
+    setSelectedFilters={[Function]}
+    shouldFilterReset={false}
+  />
+</ContextProvider>
+`;

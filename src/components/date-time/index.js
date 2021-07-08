@@ -6,6 +6,7 @@ import React from 'react';
 const DateTimeComponent = props => {
   return (
     <DatePicker
+      id="date-picker"
       selected={props.value}
       onChange={date => props.onChange(date)}
       showTimeSelect

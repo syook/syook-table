@@ -5,7 +5,7 @@ import isEmpty from 'lodash/isEmpty';
 
 import { isAfter, isBefore, startOfMinute, isEqual as isEqualDate } from 'date-fns';
 
-const queryCondition = ({ attrValue = '', attributeType = '', searchValue = '', query = '', placeholder }) => {
+export const queryCondition = ({ attrValue = '', attributeType = '', searchValue = '', query = '', placeholder }) => {
   const attributeTypeIsDate = attributeType === 'date' || attributeType === 'datetime';
   if (!searchValue && !attributeTypeIsDate && ['contains', 'does not contains', 'is'].includes(query)) return true;
   attributeType = (attributeType || '').toLowerCase();
@@ -94,7 +94,7 @@ const queryCondition = ({ attrValue = '', attributeType = '', searchValue = '', 
   }
 };
 
-const findSearchValue = (type, value) => {
+export const findSearchValue = (type, value) => {
   if (type === 'String') {
     return value ? value.trim() : '';
   } else {
@@ -102,7 +102,7 @@ const findSearchValue = (type, value) => {
   }
 };
 
-const findAttrValue = (obj, attribute) => {
+export const findAttrValue = (obj, attribute) => {
   const foundValue = obj[attribute];
   if (foundValue || foundValue === 0) return foundValue;
   for (const key in obj) {
@@ -121,7 +121,7 @@ const findAttrValue = (obj, attribute) => {
   }
 };
 
-const filterData = ({ data, attribute, value, query, type, placeholder }) => {
+export const filterData = ({ data, attribute, value, query, type, placeholder }) => {
   return data.filter(d =>
     queryCondition({
       attrValue: findAttrValue(d, attribute),

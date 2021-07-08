@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Component matches snapshot 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "position": "relative",
+        "right": "0px",
+        "top": "-30px",
+      }
+    }
+  >
+    <Input
+      iconPosition="left"
+      onChange={[Function]}
+      placeholder="Search..."
+      style={
+        Object {
+          "borderRadius": "3px",
+          "color": "#667797",
+          "marginLeft": "10px",
+          "maxWidth": "300px",
+          "position": "absolute",
+          "right": "15px",
+          "top": "35px",
+          "zIndex": 9,
+        }
+      }
+      type="text"
+    >
+      <Icon
+        as="i"
+        name="search"
+      />
+      <input
+        className="tabulous-searchInput"
+        value=""
+      />
+      <Icon
+        as="i"
+        name="close"
+        onClick={[Function]}
+        style={
+          Object {
+            "cursor": "pointer",
+            "left": "unset",
+            "pointerEvents": "auto",
+            "position": "absolute",
+            "right": "0px",
+          }
+        }
+      />
+    </Input>
+  </div>
+</div>
+`;
+
+exports[`Search Component should match snapshot if name prop is passed 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "color": "rgb(102, 119, 151)",
+        "fontSize": "24px",
+        "fontWeight": "normal",
+        "paddingLeft": "15px",
+        "paddingTop": "5px",
+        "textAlign": "left",
+      }
+    }
+  >
+    Harsh
+  </div>
+  <div
+    style={
+      Object {
+        "position": "relative",
+        "right": "0px",
+        "top": "-30px",
+      }
+    }
+  >
+    <Input
+      iconPosition="left"
+      onChange={[Function]}
+      placeholder="Search..."
+      style={
+        Object {
+          "borderRadius": "3px",
+          "color": "#667797",
+          "marginLeft": "10px",
+          "maxWidth": "300px",
+          "position": "absolute",
+          "right": "15px",
+          "top": "35px",
+          "zIndex": 9,
+        }
+      }
+      type="text"
+    >
+      <Icon
+        as="i"
+        name="search"
+      />
+      <input
+        className="tabulous-searchInput"
+        value=""
+      />
+      <Icon
+        as="i"
+        name="close"
+        onClick={[Function]}
+        style={
+          Object {
+            "cursor": "pointer",
+            "left": "unset",
+            "pointerEvents": "auto",
+            "position": "absolute",
+            "right": "0px",
+          }
+        }
+      />
+    </Input>
+  </div>
+</div>
+`;

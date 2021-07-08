@@ -1,0 +1,1194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderSelector ColumnList should match snapshot if columns are empty 1`] = `
+<ColumnList
+  columns={Array []}
+  toggleAllColumns={[Function]}
+  toggleColumns={[Function]}
+>
+  <List
+    key="hide-selector-list"
+  >
+    <div
+      className="ui list"
+      role="list"
+    >
+      <ListItem>
+        <div
+          className="item"
+          onClick={[Function]}
+          role="listitem"
+        >
+          <ListContent>
+            <div
+              className="content"
+            >
+              <Button
+                as="button"
+                compact={true}
+                content="Hide all"
+                onClick={[Function]}
+                size="mini"
+              >
+                <Ref
+                  innerRef={
+                    Object {
+                      "current": <button
+                        class="ui mini compact button"
+                      >
+                        Hide all
+                      </button>,
+                    }
+                  }
+                >
+                  <RefFindNode
+                    innerRef={
+                      Object {
+                        "current": <button
+                          class="ui mini compact button"
+                        >
+                          Hide all
+                        </button>,
+                      }
+                    }
+                  >
+                    <button
+                      className="ui mini compact button"
+                      onClick={[Function]}
+                    >
+                      Hide all
+                    </button>
+                  </RefFindNode>
+                </Ref>
+              </Button>
+              <Button
+                as="button"
+                compact={true}
+                content="Show all"
+                onClick={[Function]}
+                size="mini"
+              >
+                <Ref
+                  innerRef={
+                    Object {
+                      "current": <button
+                        class="ui mini compact button"
+                      >
+                        Show all
+                      </button>,
+                    }
+                  }
+                >
+                  <RefFindNode
+                    innerRef={
+                      Object {
+                        "current": <button
+                          class="ui mini compact button"
+                        >
+                          Show all
+                        </button>,
+                      }
+                    }
+                  >
+                    <button
+                      className="ui mini compact button"
+                      onClick={[Function]}
+                    >
+                      Show all
+                    </button>
+                  </RefFindNode>
+                </Ref>
+              </Button>
+            </div>
+          </ListContent>
+        </div>
+      </ListItem>
+    </div>
+  </List>
+</ColumnList>
+`;
+
+exports[`HeaderSelector ColumnList should match snapshot if columns are not empty 1`] = `
+<ColumnList
+  columns={
+    Array [
+      Object {
+        "cell": [Function],
+        "field": "description",
+        "headerName": "Description",
+        "isFilterable": true,
+        "isResizable": true,
+        "isSearchable": true,
+        "isSortable": true,
+        "isVisible": true,
+        "type": "String",
+      },
+    ]
+  }
+  toggleAllColumns={[Function]}
+  toggleColumns={[Function]}
+>
+  <List
+    key="hide-selector-list"
+  >
+    <div
+      className="ui list"
+      role="list"
+    >
+      <ListItem
+        key="hide-selector-list-item-0"
+      >
+        <div
+          className="item"
+          onClick={[Function]}
+          role="listitem"
+        >
+          <ListContent>
+            <div
+              className="content"
+            >
+              <Checkbox
+                checked={true}
+                onChange={[Function]}
+                style={
+                  Object {
+                    "marginRight": 8,
+                  }
+                }
+                type="checkbox"
+              >
+                <div
+                  className="ui checked fitted checkbox"
+                  onChange={[Function]}
+                  onClick={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseUp={[Function]}
+                  style={
+                    Object {
+                      "marginRight": 8,
+                    }
+                  }
+                >
+                  <Ref
+                    innerRef={
+                      Object {
+                        "current": <input
+                          checked=""
+                          class="hidden"
+                          readonly=""
+                          tabindex="0"
+                          type="checkbox"
+                          value=""
+                        />,
+                      }
+                    }
+                  >
+                    <RefFindNode
+                      innerRef={
+                        Object {
+                          "current": <input
+                            checked=""
+                            class="hidden"
+                            readonly=""
+                            tabindex="0"
+                            type="checkbox"
+                            value=""
+                          />,
+                        }
+                      }
+                    >
+                      <input
+                        checked={true}
+                        className="hidden"
+                        readOnly={true}
+                        tabIndex={0}
+                        type="checkbox"
+                      />
+                    </RefFindNode>
+                  </Ref>
+                  <Ref
+                    innerRef={
+                      Object {
+                        "current": <label />,
+                      }
+                    }
+                  >
+                    <RefFindNode
+                      innerRef={
+                        Object {
+                          "current": <label />,
+                        }
+                      }
+                    >
+                      <label />
+                    </RefFindNode>
+                  </Ref>
+                </div>
+              </Checkbox>
+               
+              <span>
+                Description
+              </span>
+            </div>
+          </ListContent>
+        </div>
+      </ListItem>
+      <ListItem>
+        <div
+          className="item"
+          onClick={[Function]}
+          role="listitem"
+        >
+          <ListContent>
+            <div
+              className="content"
+            >
+              <Button
+                as="button"
+                compact={true}
+                content="Hide all"
+                onClick={[Function]}
+                size="mini"
+              >
+                <Ref
+                  innerRef={
+                    Object {
+                      "current": <button
+                        class="ui mini compact button"
+                      >
+                        Hide all
+                      </button>,
+                    }
+                  }
+                >
+                  <RefFindNode
+                    innerRef={
+                      Object {
+                        "current": <button
+                          class="ui mini compact button"
+                        >
+                          Hide all
+                        </button>,
+                      }
+                    }
+                  >
+                    <button
+                      className="ui mini compact button"
+                      onClick={[Function]}
+                    >
+                      Hide all
+                    </button>
+                  </RefFindNode>
+                </Ref>
+              </Button>
+              <Button
+                as="button"
+                compact={true}
+                content="Show all"
+                onClick={[Function]}
+                size="mini"
+              >
+                <Ref
+                  innerRef={
+                    Object {
+                      "current": <button
+                        class="ui mini compact button"
+                      >
+                        Show all
+                      </button>,
+                    }
+                  }
+                >
+                  <RefFindNode
+                    innerRef={
+                      Object {
+                        "current": <button
+                          class="ui mini compact button"
+                        >
+                          Show all
+                        </button>,
+                      }
+                    }
+                  >
+                    <button
+                      className="ui mini compact button"
+                      onClick={[Function]}
+                    >
+                      Show all
+                    </button>
+                  </RefFindNode>
+                </Ref>
+              </Button>
+            </div>
+          </ListContent>
+        </div>
+      </ListItem>
+    </div>
+  </List>
+</ColumnList>
+`;
+
+exports[`HeaderSelector ColumnList should match snapshot if no props are passed 1`] = `
+<ColumnList>
+  <List
+    key="hide-selector-list"
+  >
+    <div
+      className="ui list"
+      role="list"
+    >
+      <ListItem>
+        <div
+          className="item"
+          onClick={[Function]}
+          role="listitem"
+        >
+          <ListContent>
+            <div
+              className="content"
+            >
+              <Button
+                as="button"
+                compact={true}
+                content="Hide all"
+                onClick={[Function]}
+                size="mini"
+              >
+                <Ref
+                  innerRef={
+                    Object {
+                      "current": <button
+                        class="ui mini compact button"
+                      >
+                        Hide all
+                      </button>,
+                    }
+                  }
+                >
+                  <RefFindNode
+                    innerRef={
+                      Object {
+                        "current": <button
+                          class="ui mini compact button"
+                        >
+                          Hide all
+                        </button>,
+                      }
+                    }
+                  >
+                    <button
+                      className="ui mini compact button"
+                      onClick={[Function]}
+                    >
+                      Hide all
+                    </button>
+                  </RefFindNode>
+                </Ref>
+              </Button>
+              <Button
+                as="button"
+                compact={true}
+                content="Show all"
+                onClick={[Function]}
+                size="mini"
+              >
+                <Ref
+                  innerRef={
+                    Object {
+                      "current": <button
+                        class="ui mini compact button"
+                      >
+                        Show all
+                      </button>,
+                    }
+                  }
+                >
+                  <RefFindNode
+                    innerRef={
+                      Object {
+                        "current": <button
+                          class="ui mini compact button"
+                        >
+                          Show all
+                        </button>,
+                      }
+                    }
+                  >
+                    <button
+                      className="ui mini compact button"
+                      onClick={[Function]}
+                    >
+                      Show all
+                    </button>
+                  </RefFindNode>
+                </Ref>
+              </Button>
+            </div>
+          </ListContent>
+        </div>
+      </ListItem>
+    </div>
+  </List>
+</ColumnList>
+`;
+
+exports[`HeaderSelector HeaderSelector should match snapshot if hiddenColumnCount is 1 1`] = `
+<HeaderSelector
+  hiddenColumnCount={1}
+>
+  <div
+    style={
+      Object {
+        "display": "inline-block",
+        "textAlign": "left",
+      }
+    }
+  >
+    <Popup
+      className="selectColumns-btn"
+      content={
+        <ColumnList
+          columns={Array []}
+        />
+      }
+      disabled={false}
+      keepInViewPort={true}
+      on="click"
+      position="bottom center"
+      positionFixed={true}
+      trigger={
+        <Button
+          as="button"
+          icon={true}
+          size="medium"
+          style={
+            Object {
+              "background": "#3498DB",
+              "color": "#fff",
+              "marginRight": "10px",
+              "padding": "0.78em 0.6em 0.78em",
+            }
+          }
+        >
+          <Icon
+            as="i"
+            name="eye slash outline"
+          />
+           
+          1 hidden column
+        </Button>
+      }
+    >
+      <Portal
+        closeOnDocumentClick={true}
+        closeOnEscape={true}
+        closeOnTriggerClick={true}
+        eventPool="default"
+        onClose={[Function]}
+        onMount={[Function]}
+        onOpen={[Function]}
+        onUnmount={[Function]}
+        openOnTriggerClick={true}
+        trigger={
+          <Button
+            as="button"
+            icon={true}
+            size="medium"
+            style={
+              Object {
+                "background": "#3498DB",
+                "color": "#fff",
+                "marginRight": "10px",
+                "padding": "0.78em 0.6em 0.78em",
+              }
+            }
+          >
+            <Icon
+              as="i"
+              name="eye slash outline"
+            />
+             
+            1 hidden column
+          </Button>
+        }
+        triggerRef={[Function]}
+      >
+        <Ref
+          innerRef={[Function]}
+        >
+          <RefFindNode
+            innerRef={[Function]}
+          >
+            <Button
+              as="button"
+              icon={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              size="medium"
+              style={
+                Object {
+                  "background": "#3498DB",
+                  "color": "#fff",
+                  "marginRight": "10px",
+                  "padding": "0.78em 0.6em 0.78em",
+                }
+              }
+            >
+              <Ref
+                innerRef={
+                  Object {
+                    "current": <button
+                      class="ui medium icon button"
+                      style="background: rgb(52, 152, 219); color: rgb(255, 255, 255); padding: 0.78em 0.6em 0.78em; margin-right: 10px;"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="eye slash outline icon"
+                      />
+                       
+                      1 hidden column
+                    </button>,
+                  }
+                }
+              >
+                <RefFindNode
+                  innerRef={
+                    Object {
+                      "current": <button
+                        class="ui medium icon button"
+                        style="background: rgb(52, 152, 219); color: rgb(255, 255, 255); padding: 0.78em 0.6em 0.78em; margin-right: 10px;"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="eye slash outline icon"
+                        />
+                         
+                        1 hidden column
+                      </button>,
+                    }
+                  }
+                >
+                  <button
+                    className="ui medium icon button"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    style={
+                      Object {
+                        "background": "#3498DB",
+                        "color": "#fff",
+                        "marginRight": "10px",
+                        "padding": "0.78em 0.6em 0.78em",
+                      }
+                    }
+                  >
+                    <Icon
+                      as="i"
+                      name="eye slash outline"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="eye slash outline icon"
+                        onClick={[Function]}
+                      />
+                    </Icon>
+                     
+                    1 hidden column
+                  </button>
+                </RefFindNode>
+              </Ref>
+            </Button>
+          </RefFindNode>
+        </Ref>
+      </Portal>
+    </Popup>
+  </div>
+</HeaderSelector>
+`;
+
+exports[`HeaderSelector HeaderSelector should match snapshot if hiddenColumnCount is more than 1 1`] = `
+<HeaderSelector
+  hiddenColumnCount={3}
+>
+  <div
+    style={
+      Object {
+        "display": "inline-block",
+        "textAlign": "left",
+      }
+    }
+  >
+    <Popup
+      className="selectColumns-btn"
+      content={
+        <ColumnList
+          columns={Array []}
+        />
+      }
+      disabled={false}
+      keepInViewPort={true}
+      on="click"
+      position="bottom center"
+      positionFixed={true}
+      trigger={
+        <Button
+          as="button"
+          icon={true}
+          size="medium"
+          style={
+            Object {
+              "background": "#3498DB",
+              "color": "#fff",
+              "marginRight": "10px",
+              "padding": "0.78em 0.6em 0.78em",
+            }
+          }
+        >
+          <Icon
+            as="i"
+            name="eye slash outline"
+          />
+           
+          3 hidden columns
+        </Button>
+      }
+    >
+      <Portal
+        closeOnDocumentClick={true}
+        closeOnEscape={true}
+        closeOnTriggerClick={true}
+        eventPool="default"
+        onClose={[Function]}
+        onMount={[Function]}
+        onOpen={[Function]}
+        onUnmount={[Function]}
+        openOnTriggerClick={true}
+        trigger={
+          <Button
+            as="button"
+            icon={true}
+            size="medium"
+            style={
+              Object {
+                "background": "#3498DB",
+                "color": "#fff",
+                "marginRight": "10px",
+                "padding": "0.78em 0.6em 0.78em",
+              }
+            }
+          >
+            <Icon
+              as="i"
+              name="eye slash outline"
+            />
+             
+            3 hidden columns
+          </Button>
+        }
+        triggerRef={[Function]}
+      >
+        <Ref
+          innerRef={[Function]}
+        >
+          <RefFindNode
+            innerRef={[Function]}
+          >
+            <Button
+              as="button"
+              icon={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              size="medium"
+              style={
+                Object {
+                  "background": "#3498DB",
+                  "color": "#fff",
+                  "marginRight": "10px",
+                  "padding": "0.78em 0.6em 0.78em",
+                }
+              }
+            >
+              <Ref
+                innerRef={
+                  Object {
+                    "current": <button
+                      class="ui medium icon button"
+                      style="background: rgb(52, 152, 219); color: rgb(255, 255, 255); padding: 0.78em 0.6em 0.78em; margin-right: 10px;"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="eye slash outline icon"
+                      />
+                       
+                      3 hidden columns
+                    </button>,
+                  }
+                }
+              >
+                <RefFindNode
+                  innerRef={
+                    Object {
+                      "current": <button
+                        class="ui medium icon button"
+                        style="background: rgb(52, 152, 219); color: rgb(255, 255, 255); padding: 0.78em 0.6em 0.78em; margin-right: 10px;"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="eye slash outline icon"
+                        />
+                         
+                        3 hidden columns
+                      </button>,
+                    }
+                  }
+                >
+                  <button
+                    className="ui medium icon button"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    style={
+                      Object {
+                        "background": "#3498DB",
+                        "color": "#fff",
+                        "marginRight": "10px",
+                        "padding": "0.78em 0.6em 0.78em",
+                      }
+                    }
+                  >
+                    <Icon
+                      as="i"
+                      name="eye slash outline"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="eye slash outline icon"
+                        onClick={[Function]}
+                      />
+                    </Icon>
+                     
+                    3 hidden columns
+                  </button>
+                </RefFindNode>
+              </Ref>
+            </Button>
+          </RefFindNode>
+        </Ref>
+      </Portal>
+    </Popup>
+  </div>
+</HeaderSelector>
+`;
+
+exports[`HeaderSelector HeaderSelector should match snapshot if hiddenColumnCount is zero 1`] = `
+<HeaderSelector
+  hiddenColumnCount={0}
+>
+  <div
+    style={
+      Object {
+        "display": "inline-block",
+        "textAlign": "left",
+      }
+    }
+  >
+    <Popup
+      className="selectColumns-btn"
+      content={
+        <ColumnList
+          columns={Array []}
+        />
+      }
+      disabled={false}
+      keepInViewPort={true}
+      on="click"
+      position="bottom center"
+      positionFixed={true}
+      trigger={
+        <Button
+          as="button"
+          icon={true}
+          size="medium"
+          style={
+            Object {
+              "background": "rgb(109, 180, 226)",
+              "color": "#fff",
+              "marginRight": "10px",
+              "padding": "",
+            }
+          }
+        >
+          <Icon
+            as="i"
+            name="eye slash outline"
+          />
+           
+          Hide columns
+        </Button>
+      }
+    >
+      <Portal
+        closeOnDocumentClick={true}
+        closeOnEscape={true}
+        closeOnTriggerClick={true}
+        eventPool="default"
+        onClose={[Function]}
+        onMount={[Function]}
+        onOpen={[Function]}
+        onUnmount={[Function]}
+        openOnTriggerClick={true}
+        trigger={
+          <Button
+            as="button"
+            icon={true}
+            size="medium"
+            style={
+              Object {
+                "background": "rgb(109, 180, 226)",
+                "color": "#fff",
+                "marginRight": "10px",
+                "padding": "",
+              }
+            }
+          >
+            <Icon
+              as="i"
+              name="eye slash outline"
+            />
+             
+            Hide columns
+          </Button>
+        }
+        triggerRef={[Function]}
+      >
+        <Ref
+          innerRef={[Function]}
+        >
+          <RefFindNode
+            innerRef={[Function]}
+          >
+            <Button
+              as="button"
+              icon={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              size="medium"
+              style={
+                Object {
+                  "background": "rgb(109, 180, 226)",
+                  "color": "#fff",
+                  "marginRight": "10px",
+                  "padding": "",
+                }
+              }
+            >
+              <Ref
+                innerRef={
+                  Object {
+                    "current": <button
+                      class="ui medium icon button"
+                      style="background: rgb(109, 180, 226); color: rgb(255, 255, 255); margin-right: 10px;"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="eye slash outline icon"
+                      />
+                       
+                      Hide columns
+                    </button>,
+                  }
+                }
+              >
+                <RefFindNode
+                  innerRef={
+                    Object {
+                      "current": <button
+                        class="ui medium icon button"
+                        style="background: rgb(109, 180, 226); color: rgb(255, 255, 255); margin-right: 10px;"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="eye slash outline icon"
+                        />
+                         
+                        Hide columns
+                      </button>,
+                    }
+                  }
+                >
+                  <button
+                    className="ui medium icon button"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    style={
+                      Object {
+                        "background": "rgb(109, 180, 226)",
+                        "color": "#fff",
+                        "marginRight": "10px",
+                        "padding": "",
+                      }
+                    }
+                  >
+                    <Icon
+                      as="i"
+                      name="eye slash outline"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="eye slash outline icon"
+                        onClick={[Function]}
+                      />
+                    </Icon>
+                     
+                    Hide columns
+                  </button>
+                </RefFindNode>
+              </Ref>
+            </Button>
+          </RefFindNode>
+        </Ref>
+      </Portal>
+    </Popup>
+  </div>
+</HeaderSelector>
+`;
+
+exports[`HeaderSelector HeaderSelector should match snapshot including ColumnList 1`] = `
+<HeaderSelector>
+  <div
+    style={
+      Object {
+        "display": "inline-block",
+        "textAlign": "left",
+      }
+    }
+  >
+    <Popup
+      className="selectColumns-btn"
+      content={
+        <ColumnList
+          columns={Array []}
+        />
+      }
+      disabled={false}
+      keepInViewPort={true}
+      on="click"
+      position="bottom center"
+      positionFixed={true}
+      trigger={
+        <Button
+          as="button"
+          icon={true}
+          size="medium"
+          style={
+            Object {
+              "background": "rgb(109, 180, 226)",
+              "color": "#fff",
+              "marginRight": "10px",
+              "padding": "",
+            }
+          }
+        >
+          <Icon
+            as="i"
+            name="eye slash outline"
+          />
+           
+          Hide columns
+        </Button>
+      }
+    >
+      <Portal
+        closeOnDocumentClick={true}
+        closeOnEscape={true}
+        closeOnTriggerClick={true}
+        eventPool="default"
+        onClose={[Function]}
+        onMount={[Function]}
+        onOpen={[Function]}
+        onUnmount={[Function]}
+        openOnTriggerClick={true}
+        trigger={
+          <Button
+            as="button"
+            icon={true}
+            size="medium"
+            style={
+              Object {
+                "background": "rgb(109, 180, 226)",
+                "color": "#fff",
+                "marginRight": "10px",
+                "padding": "",
+              }
+            }
+          >
+            <Icon
+              as="i"
+              name="eye slash outline"
+            />
+             
+            Hide columns
+          </Button>
+        }
+        triggerRef={[Function]}
+      >
+        <Ref
+          innerRef={[Function]}
+        >
+          <RefFindNode
+            innerRef={[Function]}
+          >
+            <Button
+              as="button"
+              icon={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              size="medium"
+              style={
+                Object {
+                  "background": "rgb(109, 180, 226)",
+                  "color": "#fff",
+                  "marginRight": "10px",
+                  "padding": "",
+                }
+              }
+            >
+              <Ref
+                innerRef={
+                  Object {
+                    "current": <button
+                      class="ui medium icon button"
+                      style="background: rgb(109, 180, 226); color: rgb(255, 255, 255); margin-right: 10px;"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="eye slash outline icon"
+                      />
+                       
+                      Hide columns
+                    </button>,
+                  }
+                }
+              >
+                <RefFindNode
+                  innerRef={
+                    Object {
+                      "current": <button
+                        class="ui medium icon button"
+                        style="background: rgb(109, 180, 226); color: rgb(255, 255, 255); margin-right: 10px;"
+                      >
+                        <i
+                          aria-hidden="true"
+                          class="eye slash outline icon"
+                        />
+                         
+                        Hide columns
+                      </button>,
+                    }
+                  }
+                >
+                  <button
+                    className="ui medium icon button"
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    style={
+                      Object {
+                        "background": "rgb(109, 180, 226)",
+                        "color": "#fff",
+                        "marginRight": "10px",
+                        "padding": "",
+                      }
+                    }
+                  >
+                    <Icon
+                      as="i"
+                      name="eye slash outline"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="eye slash outline icon"
+                        onClick={[Function]}
+                      />
+                    </Icon>
+                     
+                    Hide columns
+                  </button>
+                </RefFindNode>
+              </Ref>
+            </Button>
+          </RefFindNode>
+        </Ref>
+      </Portal>
+    </Popup>
+  </div>
+</HeaderSelector>
+`;
+
+exports[`HeaderSelector should match snapshot 1`] = `
+<div
+  style={
+    Object {
+      "display": "inline-block",
+      "textAlign": "left",
+    }
+  }
+>
+  <Popup
+    className="selectColumns-btn"
+    content={
+      <ColumnList
+        columns={Array []}
+      />
+    }
+    disabled={false}
+    keepInViewPort={true}
+    on="click"
+    position="bottom center"
+    positionFixed={true}
+    trigger={
+      <Button
+        as="button"
+        icon={true}
+        size="medium"
+        style={
+          Object {
+            "background": "rgb(109, 180, 226)",
+            "color": "#fff",
+            "marginRight": "10px",
+            "padding": "",
+          }
+        }
+      >
+        <Icon
+          as="i"
+          name="eye slash outline"
+        />
+         
+        Hide columns
+      </Button>
+    }
+  />
+</div>
+`;

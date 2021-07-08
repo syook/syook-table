@@ -1,0 +1,663 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BulkActionList should match snapshot 1`] = `
+<BulkActionList>
+  <Dropdown
+    additionLabel="Add "
+    additionPosition="top"
+    button={true}
+    className="icon bulk-action right labeled"
+    closeOnBlur={true}
+    deburr={false}
+    icon="dropdown"
+    minCharacters={1}
+    noResultsMessage="No results found."
+    openOnFocus={true}
+    renderLabel={[Function]}
+    searchInput="text"
+    selectOnBlur={true}
+    selectOnNavigation={true}
+    text="Bulk Action (0 selected)"
+    wrapSelection={true}
+  >
+    <Ref
+      innerRef={
+        Object {
+          "current": <div
+            aria-expanded="false"
+            class="ui button dropdown icon bulk-action right labeled"
+            role="listbox"
+            tabindex="0"
+          >
+            <div
+              aria-live="polite"
+              class="text"
+              role="alert"
+            >
+              Bulk Action (0 selected)
+            </div>
+            <i
+              aria-hidden="true"
+              class="dropdown icon"
+            />
+            <div
+              class="menu transition"
+            />
+          </div>,
+        }
+      }
+    >
+      <RefFindNode
+        innerRef={
+          Object {
+            "current": <div
+              aria-expanded="false"
+              class="ui button dropdown icon bulk-action right labeled"
+              role="listbox"
+              tabindex="0"
+            >
+              <div
+                aria-live="polite"
+                class="text"
+                role="alert"
+              >
+                Bulk Action (0 selected)
+              </div>
+              <i
+                aria-hidden="true"
+                class="dropdown icon"
+              />
+              <div
+                class="menu transition"
+              />
+            </div>,
+          }
+        }
+      >
+        <div
+          aria-expanded={false}
+          className="ui button dropdown icon bulk-action right labeled"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseDown={[Function]}
+          role="listbox"
+          tabIndex={0}
+        >
+          <div
+            aria-live="polite"
+            className="text"
+            role="alert"
+          >
+            Bulk Action (0 selected)
+          </div>
+          <Icon
+            as="i"
+            className=""
+            name="dropdown"
+            onClick={[Function]}
+          >
+            <i
+              aria-hidden="true"
+              className="dropdown icon"
+              onClick={[Function]}
+            />
+          </Icon>
+          <DropdownMenu
+            className=""
+          >
+            <div
+              className="menu transition"
+            />
+          </DropdownMenu>
+        </div>
+      </RefFindNode>
+    </Ref>
+  </Dropdown>
+</BulkActionList>
+`;
+
+exports[`BulkActionList should match snapshot if bulkActions are empty 1`] = `
+<BulkActionList
+  bulkActions={Array []}
+  selectedRows={
+    Array [
+      1,
+      2,
+    ]
+  }
+>
+  <Dropdown
+    additionLabel="Add "
+    additionPosition="top"
+    button={true}
+    className="icon bulk-action right labeled"
+    closeOnBlur={true}
+    deburr={false}
+    icon="dropdown"
+    minCharacters={1}
+    noResultsMessage="No results found."
+    openOnFocus={true}
+    renderLabel={[Function]}
+    searchInput="text"
+    selectOnBlur={true}
+    selectOnNavigation={true}
+    text="Bulk Action (2 selected)"
+    wrapSelection={true}
+  >
+    <Ref
+      innerRef={
+        Object {
+          "current": <div
+            aria-expanded="false"
+            class="ui button dropdown icon bulk-action right labeled"
+            role="listbox"
+            tabindex="0"
+          >
+            <div
+              aria-live="polite"
+              class="text"
+              role="alert"
+            >
+              Bulk Action (2 selected)
+            </div>
+            <i
+              aria-hidden="true"
+              class="dropdown icon"
+            />
+            <div
+              class="menu transition"
+            />
+          </div>,
+        }
+      }
+    >
+      <RefFindNode
+        innerRef={
+          Object {
+            "current": <div
+              aria-expanded="false"
+              class="ui button dropdown icon bulk-action right labeled"
+              role="listbox"
+              tabindex="0"
+            >
+              <div
+                aria-live="polite"
+                class="text"
+                role="alert"
+              >
+                Bulk Action (2 selected)
+              </div>
+              <i
+                aria-hidden="true"
+                class="dropdown icon"
+              />
+              <div
+                class="menu transition"
+              />
+            </div>,
+          }
+        }
+      >
+        <div
+          aria-expanded={false}
+          className="ui button dropdown icon bulk-action right labeled"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseDown={[Function]}
+          role="listbox"
+          tabIndex={0}
+        >
+          <div
+            aria-live="polite"
+            className="text"
+            role="alert"
+          >
+            Bulk Action (2 selected)
+          </div>
+          <Icon
+            as="i"
+            className=""
+            name="dropdown"
+            onClick={[Function]}
+          >
+            <i
+              aria-hidden="true"
+              className="dropdown icon"
+              onClick={[Function]}
+            />
+          </Icon>
+          <DropdownMenu
+            className=""
+          >
+            <div
+              className="menu transition"
+            />
+          </DropdownMenu>
+        </div>
+      </RefFindNode>
+    </Ref>
+  </Dropdown>
+</BulkActionList>
+`;
+
+exports[`BulkActionList should match snapshot if bulkActions are not empty 1`] = `
+<BulkActionList
+  bulkActions={
+    Array [
+      Object {
+        "function": [Function],
+        "name": "Delete",
+      },
+    ]
+  }
+  selectedRows={
+    Array [
+      1,
+      2,
+    ]
+  }
+>
+  <Dropdown
+    additionLabel="Add "
+    additionPosition="top"
+    button={true}
+    className="icon bulk-action right labeled"
+    closeOnBlur={true}
+    deburr={false}
+    icon="dropdown"
+    minCharacters={1}
+    noResultsMessage="No results found."
+    openOnFocus={true}
+    renderLabel={[Function]}
+    searchInput="text"
+    selectOnBlur={true}
+    selectOnNavigation={true}
+    text="Bulk Action (2 selected)"
+    wrapSelection={true}
+  >
+    <Ref
+      innerRef={
+        Object {
+          "current": <div
+            aria-expanded="false"
+            class="ui button dropdown icon bulk-action right labeled"
+            role="listbox"
+            tabindex="0"
+          >
+            <div
+              aria-live="polite"
+              class="text"
+              role="alert"
+            >
+              Bulk Action (2 selected)
+            </div>
+            <i
+              aria-hidden="true"
+              class="dropdown icon"
+            />
+            <div
+              class="menu transition"
+            >
+              <div
+                class="item"
+                role="option"
+              >
+                <span
+                  class="text"
+                >
+                  Delete
+                </span>
+              </div>
+            </div>
+          </div>,
+        }
+      }
+    >
+      <RefFindNode
+        innerRef={
+          Object {
+            "current": <div
+              aria-expanded="false"
+              class="ui button dropdown icon bulk-action right labeled"
+              role="listbox"
+              tabindex="0"
+            >
+              <div
+                aria-live="polite"
+                class="text"
+                role="alert"
+              >
+                Bulk Action (2 selected)
+              </div>
+              <i
+                aria-hidden="true"
+                class="dropdown icon"
+              />
+              <div
+                class="menu transition"
+              >
+                <div
+                  class="item"
+                  role="option"
+                >
+                  <span
+                    class="text"
+                  >
+                    Delete
+                  </span>
+                </div>
+              </div>
+            </div>,
+          }
+        }
+      >
+        <div
+          aria-expanded={false}
+          className="ui button dropdown icon bulk-action right labeled"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseDown={[Function]}
+          role="listbox"
+          tabIndex={0}
+        >
+          <div
+            aria-live="polite"
+            className="text"
+            role="alert"
+          >
+            Bulk Action (2 selected)
+          </div>
+          <Icon
+            as="i"
+            className=""
+            name="dropdown"
+            onClick={[Function]}
+          >
+            <i
+              aria-hidden="true"
+              className="dropdown icon"
+              onClick={[Function]}
+            />
+          </Icon>
+          <DropdownMenu
+            className=""
+          >
+            <div
+              className="menu transition"
+            >
+              <DropdownItem
+                key="BulkActionList-0"
+                onClick={[Function]}
+                text="Delete"
+              >
+                <div
+                  className="item"
+                  onClick={[Function]}
+                  role="option"
+                >
+                  <span
+                    className="text"
+                  >
+                    Delete
+                  </span>
+                </div>
+              </DropdownItem>
+            </div>
+          </DropdownMenu>
+        </div>
+      </RefFindNode>
+    </Ref>
+  </Dropdown>
+</BulkActionList>
+`;
+
+exports[`BulkActionList should match snapshot is selectedRows are empty 1`] = `
+<BulkActionList
+  selectedRows={Array []}
+>
+  <Dropdown
+    additionLabel="Add "
+    additionPosition="top"
+    button={true}
+    className="icon bulk-action right labeled"
+    closeOnBlur={true}
+    deburr={false}
+    icon="dropdown"
+    minCharacters={1}
+    noResultsMessage="No results found."
+    openOnFocus={true}
+    renderLabel={[Function]}
+    searchInput="text"
+    selectOnBlur={true}
+    selectOnNavigation={true}
+    text="Bulk Action (0 selected)"
+    wrapSelection={true}
+  >
+    <Ref
+      innerRef={
+        Object {
+          "current": <div
+            aria-expanded="false"
+            class="ui button dropdown icon bulk-action right labeled"
+            role="listbox"
+            tabindex="0"
+          >
+            <div
+              aria-live="polite"
+              class="text"
+              role="alert"
+            >
+              Bulk Action (0 selected)
+            </div>
+            <i
+              aria-hidden="true"
+              class="dropdown icon"
+            />
+            <div
+              class="menu transition"
+            />
+          </div>,
+        }
+      }
+    >
+      <RefFindNode
+        innerRef={
+          Object {
+            "current": <div
+              aria-expanded="false"
+              class="ui button dropdown icon bulk-action right labeled"
+              role="listbox"
+              tabindex="0"
+            >
+              <div
+                aria-live="polite"
+                class="text"
+                role="alert"
+              >
+                Bulk Action (0 selected)
+              </div>
+              <i
+                aria-hidden="true"
+                class="dropdown icon"
+              />
+              <div
+                class="menu transition"
+              />
+            </div>,
+          }
+        }
+      >
+        <div
+          aria-expanded={false}
+          className="ui button dropdown icon bulk-action right labeled"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseDown={[Function]}
+          role="listbox"
+          tabIndex={0}
+        >
+          <div
+            aria-live="polite"
+            className="text"
+            role="alert"
+          >
+            Bulk Action (0 selected)
+          </div>
+          <Icon
+            as="i"
+            className=""
+            name="dropdown"
+            onClick={[Function]}
+          >
+            <i
+              aria-hidden="true"
+              className="dropdown icon"
+              onClick={[Function]}
+            />
+          </Icon>
+          <DropdownMenu
+            className=""
+          >
+            <div
+              className="menu transition"
+            />
+          </DropdownMenu>
+        </div>
+      </RefFindNode>
+    </Ref>
+  </Dropdown>
+</BulkActionList>
+`;
+
+exports[`BulkActionList should match snapshot is selectedRows are not empty 1`] = `
+<BulkActionList
+  selectedRows={
+    Array [
+      1,
+      2,
+    ]
+  }
+>
+  <Dropdown
+    additionLabel="Add "
+    additionPosition="top"
+    button={true}
+    className="icon bulk-action right labeled"
+    closeOnBlur={true}
+    deburr={false}
+    icon="dropdown"
+    minCharacters={1}
+    noResultsMessage="No results found."
+    openOnFocus={true}
+    renderLabel={[Function]}
+    searchInput="text"
+    selectOnBlur={true}
+    selectOnNavigation={true}
+    text="Bulk Action (2 selected)"
+    wrapSelection={true}
+  >
+    <Ref
+      innerRef={
+        Object {
+          "current": <div
+            aria-expanded="false"
+            class="ui button dropdown icon bulk-action right labeled"
+            role="listbox"
+            tabindex="0"
+          >
+            <div
+              aria-live="polite"
+              class="text"
+              role="alert"
+            >
+              Bulk Action (2 selected)
+            </div>
+            <i
+              aria-hidden="true"
+              class="dropdown icon"
+            />
+            <div
+              class="menu transition"
+            />
+          </div>,
+        }
+      }
+    >
+      <RefFindNode
+        innerRef={
+          Object {
+            "current": <div
+              aria-expanded="false"
+              class="ui button dropdown icon bulk-action right labeled"
+              role="listbox"
+              tabindex="0"
+            >
+              <div
+                aria-live="polite"
+                class="text"
+                role="alert"
+              >
+                Bulk Action (2 selected)
+              </div>
+              <i
+                aria-hidden="true"
+                class="dropdown icon"
+              />
+              <div
+                class="menu transition"
+              />
+            </div>,
+          }
+        }
+      >
+        <div
+          aria-expanded={false}
+          className="ui button dropdown icon bulk-action right labeled"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onMouseDown={[Function]}
+          role="listbox"
+          tabIndex={0}
+        >
+          <div
+            aria-live="polite"
+            className="text"
+            role="alert"
+          >
+            Bulk Action (2 selected)
+          </div>
+          <Icon
+            as="i"
+            className=""
+            name="dropdown"
+            onClick={[Function]}
+          >
+            <i
+              aria-hidden="true"
+              className="dropdown icon"
+              onClick={[Function]}
+            />
+          </Icon>
+          <DropdownMenu
+            className=""
+          >
+            <div
+              className="menu transition"
+            />
+          </DropdownMenu>
+        </div>
+      </RefFindNode>
+    </Ref>
+  </Dropdown>
+</BulkActionList>
+`;

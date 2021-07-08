@@ -26,7 +26,7 @@ function SortProvider(props) {
     columnName: null,
     columnType: null,
     direction: null,
-    data: [...props.data],
+    data: props.data ? [...props.data] : [],
     resetPagination: false,
   });
 
